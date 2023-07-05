@@ -1,0 +1,15 @@
+﻿[id*="#gview_jqg"], [id*="#gbox_jqg"], [id*="#gview_jqg"] > div:nth-child(2), [id*="#gview_jqg"] > div:nth-child(2) > div:nth-child(1) > table:nth-child(1) {
+    width: auto;
+}
+
+.ui-jqgrid .ui-jqgrid-htable th div {
+    overflow: visible;
+    white-space: pre;
+}
+
+.ui-th-column, .ui-jqgrid .ui-jqgrid-htable th.ui-th-column {
+    /* overflow: hidden; */
+    overflow: auto;
+    height: auto;
+}
+

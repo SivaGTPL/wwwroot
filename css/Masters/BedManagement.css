@@ -1,0 +1,825 @@
+﻿body {
+}
+.square.vacant {
+    border-width: 2px;
+    border-color: #34e111 !important;
+    background: #34e111;
+}
+
+.square.admitted {
+    border-width: 2px;
+    border-color: red !important;
+    background: red;
+}
+
+.square.maintenance {
+    border-width: 2px;
+    border-color: deepskyblue !important;
+    background: deepskyblue;
+}
+
+.square.housekeeping {
+    border-width: 2px;
+    border-color: yellow !important;
+    background: yellow;
+}
+
+.square.reserved {
+    border-width: 2px;
+    border-color: lightseagreen !important;
+    background: lightseagreen;
+}
+
+.square.selected {
+    border-color: black !important;
+    background: black;
+}
+
+.selected {
+    border-color: black !important;
+}
+
+.vacant {
+    border-color: #34e111 !important;
+}
+
+.admitted {
+    border-color: red !important;
+}
+
+.maintenance {
+    border-color: deepskyblue !important;
+}
+
+.housekeeping {
+    border-color: yellow !important;
+}
+
+.reserved {
+    border-color: lightseagreen !important;
+}
+#wardSection{
+    border-bottom:1px solid #e8e8e8;
+}
+#bedmanagementnavcontainer {
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.15);
+}
+
+#bedmanagementnav {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.roomFilter li label [type="checkbox"] {
+    vertical-align: text-top;
+}
+
+.bedAndPatientDetails {
+    border: 1px solid #f2f2f2;
+    padding: 0px 15px;
+}
+.tbedBox {
+    padding:0em 0.5em !important;
+}
+#wardSection.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0px 0px;
+    background: #fafafa;
+    z-index: 100;
+}
+#bedSection.sticky {
+    position: relative;
+    top: 90px;
+}
+@media only screen and (min-width:299px) {
+    #bedmanagementnav .nav-item {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.50px;
+        color: #424f54;
+        border: 3px solid transparent;
+        width: 230px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #bedmanagementnav .nav-link.active {
+        border-color: #fff #fff gold !important;
+        color: gold !important;
+        border-width: 3px;
+    }
+
+    #nav-tabcontent {
+        padding: 15px;
+        box-shadow: 0 0px 0.5px rgba(0,0,0,.1);
+        background: #fbfbfb;
+    }
+
+    label {
+        display: inline;
+    }
+
+    .divbeddetails {
+        padding: 15px;
+        border-top: 0px !important;
+        border-bottom: 0px !important;
+        border-right: 0px !important;
+        border: 4px solid transparent;
+        background: #fff;
+        box-shadow: 0px 6px 12px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+        border-radius: 0px;
+    }
+
+        .divbeddetails p {
+            border-right: 0px solid #ccc;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-bottom: 2px;
+            font-size: 12px;
+        }
+
+        .divbeddetails .header {
+            height: 40px;
+            border: 1px solid #ccc;
+        }
+
+    .bedheaderpart {
+        position: absolute;
+        top: 18px;
+        right: 25px;
+        height: 70%;
+        width: 10px;
+        background: #fbfbfb;
+        border: 1px solid #e8e8e8 !important;
+        border-radius: 20px !important;
+        /*box-shadow: 0px 1px 1px rgba(0,0,0,0.3);*/
+        transform: skewY(0deg);
+    }
+
+        .bedheaderpart.green {
+            background: #05db05 !important;
+        }
+
+        .bedheaderpart.red {
+            background: red !important;
+        }
+
+    .divbeddetailsbefore {
+        position: absolute;
+        left: -8px;
+        top: 1px;
+        width: 20px;
+        height: 20px;
+        border-radius: 25%;
+        background: #fafafa;
+    }
+
+    .legendItems {
+        display: flex;
+        margin-bottom: 5px;
+        padding-left: 0px;
+    }
+
+        .legendItems li {
+            list-style-type: none;
+            padding-right: 1.2vw;
+            font-size: 12px;
+        }
+
+    .square {
+        width: 18px;
+        height: 15px;
+        border: 1px solid grey;
+        display: inline-block;
+        position: relative;
+        top: 3px;
+    }
+
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        width: 180px;
+        position: absolute;
+        right: 30px;
+        padding: .5rem 1rem;
+    }
+
+    .wardHeading {
+        text-align: left;
+        background: linear-gradient(to left,#fff,#fefad1);
+        color: #797172;
+        font-size: 3.25vw;
+        line-height: 4.2vw !important;
+        padding:0px 15px;
+    }
+
+    .roomFilter {
+        display: flex;
+        padding-left: 0px;
+        margin-bottom: 5px !important;
+    }
+
+        .roomFilter li {
+            padding-right: 10px;
+            list-style-type: none;
+        }
+
+    #wardSection {
+        padding: 0px 0px 0px;
+    }
+
+    .fa-bed {
+        font-size: 6vw;
+        margin-left: 0px;
+        color: #d0d0d0;
+        width: 100%;
+    }
+
+    .bedBox p {
+        font-size: 12px;
+    }
+
+    .bedBox {
+        border: 1.9px solid #e3e3e3;
+        text-align: center;
+        background: linear-gradient(to top,#fff,#fdfdfd);
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .lblBlock {
+        display: block;
+        font-size: 2.28vw !important;
+        color: #a9a9a9;
+        text-transform: uppercase;
+    }
+
+    .lblPatientDetails {
+        font-size: 0.85vw;
+        color: black;
+    }
+
+    .lblInline {
+        display: inline-block;
+        font-size: 0.5vw;
+        color: #a9a9a9;
+        text-transform: uppercase;
+    }
+
+    .form-group.mini {
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (min-width:576px) {
+    #bedmanagementnav .nav-item {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.50px;
+        color: #424f54;
+        border: 3px solid transparent;
+        width: 230px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #bedmanagementnav .nav-link.active {
+        border-color: #fff #fff gold !important;
+        color: gold !important;
+        border-width: 3px;
+    }
+
+    #nav-tabcontent {
+        padding: 15px;
+        box-shadow: 0 0px 0.5px rgba(0,0,0,.1);
+        background: #fbfbfb;
+    }
+
+    label {
+        display: inline;
+    }
+
+    .divbeddetails {
+        padding: 15px;
+        border-top: 0px !important;
+        border-bottom: 0px !important;
+        border-right: 0px !important;
+        border: 4px solid transparent;
+        background: #fff;
+        box-shadow: 0px 6px 12px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+        border-radius: 0px;
+    }
+
+        .divbeddetails p {
+            border-right: 0px solid #ccc;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-bottom: 2px;
+            font-size: 12px;
+        }
+
+        .divbeddetails .header {
+            height: 40px;
+            border: 1px solid #ccc;
+        }
+
+    .bedheaderpart {
+        position: absolute;
+        top: 18px;
+        right: 25px;
+        height: 70%;
+        width: 10px;
+        background: #fbfbfb;
+        border: 1px solid #e8e8e8 !important;
+        border-radius: 20px !important;
+        /*box-shadow: 0px 1px 1px rgba(0,0,0,0.3);*/
+        transform: skewY(0deg);
+    }
+
+        .bedheaderpart.green {
+            background: #05db05 !important;
+        }
+
+        .bedheaderpart.red {
+            background: red !important;
+        }
+
+    .divbeddetailsbefore {
+        position: absolute;
+        left: -8px;
+        top: 1px;
+        width: 20px;
+        height: 20px;
+        border-radius: 25%;
+        background: #fafafa;
+    }
+
+    .legendItems {
+        display: flex;
+        margin-bottom: 5px;
+        padding-left: 0px;
+    }
+
+        .legendItems li {
+            list-style-type: none;
+            padding-right: 1.2vw;
+            font-size: 12px;
+        }
+
+    .square {
+        width: 20px;
+        height: 15px;
+        border: 1px solid grey;
+        display: inline-block;
+        position: relative;
+        top: 3px;
+    }
+
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        width: 180px;
+        position: absolute;
+        right: 30px;
+        padding: .5rem 1rem;
+    }
+
+    .wardHeading {
+        text-align: left;
+        background: linear-gradient(to left,#fff,#fefad1);
+        color: #797172;
+        font-size: 14px;
+        line-height: 18px !important;
+        padding: 0px 15px;
+    }
+
+    .roomFilter {
+        display: flex;
+        padding-left: 0px;
+        margin-bottom: 5px !important;
+    }
+
+        .roomFilter li {
+            padding-right: 10px;
+            list-style-type: none;
+        }
+
+    #wardSection {
+        padding: 0px 0px 0px;
+    }
+
+    .fa-bed {
+        font-size: 2vw;
+        margin-left: 0px;
+        color: #d0d0d0;
+        width: 100%;
+    }
+
+    .bedBox p {
+        font-size: 1.55vw;
+    }
+
+    .bedBox {
+        border: 1.9px solid #e3e3e3;
+        text-align: center;
+        background: linear-gradient(to top,#fff,#fdfdfd);
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .lblBlock {
+        display: block;
+        font-size: 11px !important;
+        color: #a9a9a9;
+        text-transform: uppercase;
+    }
+
+    .lblPatientDetails {
+        font-size: 0.85vw;
+        color: black;
+    }
+
+    .lblInline {
+        display: inline-block;
+        font-size: 11px;
+        color: #a9a9a9;
+        text-transform: uppercase;
+    }
+
+    .form-group.mini {
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (min-width:767px) {
+    #bedmanagementnav .nav-item {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.50px;
+        color: #424f54;
+        border: 3px solid transparent;
+        width: 230px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #bedmanagementnav .nav-link.active {
+        border-color: #fff #fff gold !important;
+        color: gold !important;
+        border-width: 3px;
+    }
+
+    #nav-tabcontent {
+        padding: 15px;
+        box-shadow: 0 0px 0.5px rgba(0,0,0,.1);
+        background: #fbfbfb;
+    }
+
+    label {
+        display: inline;
+    }
+
+    .divbeddetails {
+        padding: 15px;
+        border-top: 0px !important;
+        border-bottom: 0px !important;
+        border-right: 0px !important;
+        border-left: 4px solid transparent;
+        background: #fff;
+        box-shadow: 0px 6px 12px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+        border-radius: 0px;
+    }
+
+        .divbeddetails p {
+            border-right: 0px solid #ccc;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-bottom: 2px;
+        }
+
+        .divbeddetails .header {
+            height: 40px;
+            border: 1px solid #ccc;
+        }
+
+    .bedheaderpart {
+        position: absolute;
+        top: 18px;
+        right: 25px;
+        height: 70%;
+        width: 10px;
+        background: #fbfbfb;
+        border: 1px solid #e8e8e8 !important;
+        border-radius: 20px !important;
+        /*box-shadow: 0px 1px 1px rgba(0,0,0,0.3);*/
+        transform: skewY(0deg);
+    }
+
+        .bedheaderpart.green {
+            background: #05db05 !important;
+        }
+
+        .bedheaderpart.red {
+            background: red !important;
+        }
+
+    .divbeddetailsbefore {
+        position: absolute;
+        left: -8px;
+        top: 1px;
+        width: 20px;
+        height: 20px;
+        border-radius: 25%;
+        background: #fafafa;
+    }
+
+    .legendItems {
+        display: inline-flex;
+        margin-bottom: 5px;
+    }
+
+        .legendItems li {
+            list-style-type: none;
+            padding-right: 8px;
+            font-size: 12px;
+        }
+
+    .square {
+        width: 20px;
+        height: 15px;
+        border: 1px solid grey;
+        display: inline-block;
+        position: relative;
+        top: 3px;
+    }
+
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        width: 180px;
+        position: absolute;
+        right: 30px;
+        padding: .5rem 1rem;
+    }
+
+    .wardHeading {
+        text-align: left;
+        background: linear-gradient(to left,#fff,#fefad1);
+        color: #797172;
+        font-size: 14px;
+        line-height: 18px !important;
+        padding: 0px 15px;
+    }
+
+    .roomFilter {
+        display: flex;
+        padding-left: 0px;
+        margin-bottom: 5px !important;
+    }
+
+        .roomFilter li {
+            padding-right: 10px;
+            list-style-type: none;
+        }
+
+    #wardSection {
+        padding: 0px 0px 0px;
+    }
+
+    .fa-bed {
+        font-size: 2vw;
+        margin-left: 0px;
+        color: #d0d0d0;
+        width: 100%;
+    }
+
+    .bedBox p {
+        font-size: 1.55vw;
+    }
+
+    .bedBox {
+        border: 1.9px solid #e3e3e3;
+        text-align: center;
+        background: linear-gradient(to top,#fff,#fdfdfd);
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .lblBlock {
+        display: block;
+        font-size: 11px !important;
+        color: #a9a9a9;
+        text-transform: uppercase;
+    }
+
+    .lblPatientDetails {
+        font-size: 0.85vw;
+        color: black;
+    }
+
+    .lblInline {
+        display: inline-block;
+        font-size: 11px;
+        color: #a9a9a9;
+        text-transform: uppercase;
+    }
+
+    .form-group.mini {
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+
+    #bedmanagementnav .nav-item {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.50px;
+        color: #424f54;
+        border: 3px solid transparent;
+        width: 230px;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #bedmanagementnav .nav-link.active {
+        border-color: #fff #fff gold !important;
+        color: gold !important;
+        border-width: 3px;
+    }
+
+    #nav-tabcontent {
+        padding: 15px;
+        box-shadow: 0 0px 0.5px rgba(0,0,0,.1);
+        background: #fbfbfb;
+    }
+
+    label {
+        display: inline;
+    }
+
+    .divbeddetails {
+        padding: 15px;
+        border-top: 0px !important;
+        border-bottom: 0px !important;
+        border-right: 0px !important;
+        border: 4px solid transparent;
+        background: #fff;
+        box-shadow: 0px 6px 12px rgba(0,0,0,0.1);
+        margin-bottom: 30px;
+        border-radius: 0px;
+    }
+
+        .divbeddetails p {
+            border-right: 0px solid #ccc;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-bottom: 2px;
+        }
+
+        .divbeddetails .header {
+            height: 40px;
+            border: 1px solid #ccc;
+        }
+
+    .bedheaderpart {
+        position: absolute;
+        top: 18px;
+        right: 25px;
+        height: 70%;
+        width: 10px;
+        background: #fbfbfb;
+        border: 1px solid #e8e8e8 !important;
+        border-radius: 20px !important;
+        /*box-shadow: 0px 1px 1px rgba(0,0,0,0.3);*/
+        transform: skewY(0deg);
+    }
+
+        .bedheaderpart.green {
+            background: #05db05 !important;
+        }
+
+        .bedheaderpart.red {
+            background: red !important;
+        }
+
+    .divbeddetailsbefore {
+        position: absolute;
+        left: -8px;
+        top: 1px;
+        width: 20px;
+        height: 20px;
+        border-radius: 25%;
+        background: #fafafa;
+    }
+
+    .legendItems {
+        display: inline-flex;
+        margin-bottom: 5px;
+    }
+
+        .legendItems li {
+            list-style-type: none;
+            padding-right: 10px;
+            font-size: 12px;
+        }
+
+    .square {
+        width: 20px;
+        height: 15px;
+        border: 1px solid grey;
+        display: inline-block;
+        position: relative;
+        top: 3px;
+    }
+
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        width: 180px;
+        position: absolute;
+        right: 30px;
+        padding: .5rem 1rem;
+    }
+
+    .wardHeading {
+        text-align: left;
+        background: linear-gradient(to left,#fff,#fefad1);
+        color: #797172;
+        font-size: 14px;
+        line-height: 18px !important;
+        margin: 0px -15px 15px;
+        padding: 0px 15px;
+    }
+
+    .roomFilter {
+        display: flex;
+        padding-left: 0px;
+        margin-bottom: 5px !important;
+    }
+
+        .roomFilter li {
+            padding-right: 10px;
+            list-style-type: none;
+        }
+
+    #wardSection {
+        padding: 0px 0px 0px;
+    }
+
+    .fa-bed {
+        font-size: 2vw;
+        margin-left: 0px;
+        color: #d0d0d0;
+        width: 100%;
+    }
+
+    .bedBox p {
+        font-size: 0.95vw;
+    }
+
+    .bedBox {
+        border: 1.9px solid #e3e3e3;
+        text-align: center;
+        background: linear-gradient(to top,#fff,#fdfdfd);
+        cursor: pointer;
+        margin-bottom: 10px;
+        padding:5px;
+    }
+        .bedBox .patientName {
+            font-size:12px;
+            overflow: hidden;
+            height:40px;
+            position:relative;
+        }
+            .bedBox .patientName::after {
+                position: absolute;
+                display: block;
+                content: "...";
+                bottom: 0;
+                right: 0;
+                background-color: white;
+            }
+    .lblBlock {
+        display: block;
+        font-size: 12px !important;
+        color: #a9a9a9;
+        text-transform: uppercase;
+    }
+
+    .lblPatientDetails {
+        font-size: 0.85vw;
+        color: black;
+    }
+
+    .lblInline {
+        display: inline-block;
+        font-size: 0.5vw;
+        color: #a9a9a9;
+        text-transform: uppercase;
+    }
+
+    .form-group.mini {
+        margin-bottom: 5px;
+    }
+}

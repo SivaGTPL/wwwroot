@@ -1,0 +1,237 @@
+﻿:root{
+    --color--lightgrey:#f1f1f1;
+}
+body {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+.body-content,.renderBody{
+    height: 100%;
+}
+.body-content{padding-bottom:0px;}
+.m-15{
+    margin:15px;
+}
+.ga-sidebar {
+    height: calc(100vh - 108px);
+    background: #555;
+    border-right: 1px solid #f1f1f1;
+    padding: 0px 0px 0px 0px;
+}
+.tab-pane {
+   
+}
+.main-content-box{
+    margin:0px;
+}
+.ga-patientdetails {
+    padding: 10px 0px 10px 10px !important;
+    display: flex;
+}
+.ga-patientdetails-bg {
+    background: #555;
+}
+    .ga-patientdetails-bg .border-top, .ga-patientdetails-bg .border-bottom, .ga-patientdetails-bg .border-right {
+        border-color: #757373 !important;
+    }
+h1.ga-heading {
+    margin: 19px 0px;
+    font-size: 20px;
+    font-family: roboto_bold !important;
+    color: #555;
+}
+.ga-usericon {
+    width: 55px;
+    height: 55px;
+    border: 0px solid #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background: linear-gradient(to top,#fff,#fff);
+    color: #d7d7d7;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+    .ga-usericon .material-icons {
+        color: #555;
+        font-size:32px !important;
+    }
+.ga-userinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ga-username {
+    margin: 0px;
+    font-size: 12px;
+    font-family: roboto_bold !important;
+    color: gold !important;
+}
+.ga-checkin {
+    /*background: linear-gradient(to right,#fff,#f4fff0);*/
+    padding: .5rem 1rem !important;
+}
+.ga-checkout {
+    /*background: linear-gradient(to right,#fff,#fff7f1);*/
+    padding: .5rem 1rem !important;
+}
+.ga-label{
+   font-size:10px !important;
+}
+.ga-agegender {
+    position: relative;
+    bottom: 4px;
+    margin: 0px;
+}
+.ga-agegender span {
+    font-size:10px;
+    letter-spacing:0.75px;
+    color:#fff;
+}
+.ga-checkin label, .ga-checkout label {
+    font-size: 11px !important;
+    color: #acacac !important;
+}
+    .ga-checkin label svg, .ga-checkout label svg {
+        margin-right: 5px;
+    }
+.ga-menu {
+    margin: 0px 0px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    background: #868686;
+}
+button.nav-link {
+    width: 100%;
+    text-align: left;
+    border-bottom: 0px solid #f9f9f9 !important;
+    background: transparent;
+    padding: 0px;
+}
+.nav-item .nav-link{
+    height:42px;
+    padding:10px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: transparent !important;
+    background: rgba(0,0,0,0.25);
+    color: gold;
+    font-family: helvetica-bold !important;
+}
+  
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    border-color:transparent !important;
+}
+.ga-menu li, .ga-packagedetails {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px;
+    border-bottom: 0px solid #eee;
+   color:#fff !important;
+}
+     
+    .ga-menu li a svg, label svg {
+        margin-right: 5px;
+    }
+    .ga-menu li a {
+        font-size: 12px;
+        font-family: helvetica !important;
+        padding: 0px;
+       }
+.number {
+    font-family: helvetica !important;
+    color:#fff !important;
+}
+.timeline-duration svg {
+    font-size: 6px;
+    margin: 0px 10px !important;
+    position: relative;
+    vertical-align: middle;
+}
+.timeline-duration {
+    font-family: arial !important;
+    font-size: 11px;
+    color: #999;
+}
+.shadow-sm {
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
+   
+}
+main{
+    background:#fff;
+}
+main section {
+    border-radius: 0px;
+        
+}
+main section .row {
+    padding: 0px 0px;
+    margin:0px 15px 0px;
+}
+label{
+    color:#646464;
+}
+#ga-timeline a {
+    color: #555;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+    font-family: helvetica-bold !important;
+}
+#ga-timeline a:hover {
+    color: black;
+}
+#ga-timeline a::before {
+    /*content: "\f138";
+    font-family: "Font Awesome 5 Free";
+    transition: all 0.5s;
+    font-style: normal;
+    font-weight: 900;
+    font-display: auto;
+    margin-right: 10px;*/
+    /*src: url(../../fonts/fa-regular-400.ttf) format('type');*/
+    /*src: url(../../fonts/fa-regular-400.eot);
+        src: url(../../fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(../../fonts/fa-regular-400.woff2) format("woff2"),url(../../fonts/fa-regular-400.woff) format("woff"),url(../../fonts/fa-regular-400.ttf) format("truetype"),url(../../fonts/fa-regular-400.svg#fontawesome) format("svg")*/
+}
+#ga-timeline a:active::before {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+#ga-timeline section.show {
+    background: linear-gradient(225deg,#fbfbfb,rgb(252, 252, 252));
+}
+.ga-patientinfo{
+    width:100px;
+    height:100px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    display:block;
+    border-radius:50%;
+    margin:auto auto 10px;
+}
+.ga-patientName{
+    font-family:helvetica-bold !important;
+    font-size:16px;
+}
+.ga-personalinfo {
+   
+    margin: 0px 15px !important;
+   
+}
+.ga-boxshadow {
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    padding: 20px !important;
+}

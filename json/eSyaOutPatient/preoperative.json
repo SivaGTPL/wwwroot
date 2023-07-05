@@ -1,0 +1,1566 @@
+[
+  {
+    "cltype": "PO1",
+    "name": "General History",
+    "item": [
+      {
+        "name": "Marital Status",
+        "controlid": "PO1-3",
+        "valuetype": "heading"
+      },
+      {
+        "name": "Status",
+        "controlid": "PO1-3-1",
+        "valuetype": "combox",
+        "index": 1,
+        "values": [
+          {
+            "name": "Married",
+            "value": 1
+          },
+          {
+            "name": "Single",
+            "value": 2
+          },
+          {
+            "name": "Widowed",
+            "value": 3
+          },
+          {
+            "name": "Divorced",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "name": "Children",
+        "controlid": "PO1-3-2",
+        "valuetype": "checklist_l",
+        "index": 1,
+        "child": [
+          {
+            "name": "No. #",
+            "controlid": "PO1-3-2-1",
+            "valuetype": "float",
+            "unittype": "",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "Anthropometric Measurements",
+        "controlid": "PO1-1",
+        "valuetype": "heading"
+      },
+      {
+        "name": "BM-GRID",
+        "controlid": "BM-GRID",
+        "valuetype": "grid",
+        "type": "BM"
+      },
+      {
+        "name": "Habbits",
+        "controlid": "PO1-2",
+        "valuetype": "heading"
+      },
+      {
+        "name": "Allergies",
+        "controlid": "PO1-2-1",
+        "valuetype": "checklist_l",
+        "index": 1,
+        "child": [
+          {
+            "name": "Allergies",
+            "controlid": "PO1-2-1-1",
+            "valuetype": "textarea",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "Smoking",
+        "controlid": "PO1-2-2",
+        "valuetype": "checklist",
+        "index": 2
+      },
+      {
+        "name": "Alcohol",
+        "controlid": "PO1-2-3",
+        "valuetype": "checklist",
+        "index": 3
+      },
+      {
+        "name": "Substance Abuse",
+        "controlid": "PO1-2-4",
+        "valuetype": "checklist_l",
+        "index": 4,
+        "child": [
+          {
+            "name": "Specify",
+            "controlid": "PO1-2-4-1",
+            "valuetype": "text",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "History of ICU admission",
+        "controlid": "PO1-2-5",
+        "valuetype": "checklist_l",
+        "index": 4,
+        "child": [
+          {
+            "name": "Date",
+            "controlid": "PO1-2-5-1",
+            "valuetype": "date",
+            "index": 5
+          },
+          {
+            "name": "Cause",
+            "controlid": "PO1-2-5-2",
+            "valuetype": "text",
+            "index": 6
+          }
+        ]
+      },
+      {
+        "name": "History of Covid-19",
+        "controlid": "PO1-2-6",
+        "valuetype": "checklist_l",
+        "index": 7,
+        "child": [
+          {
+            "name": "Date",
+            "controlid": "PO1-2-6-1",
+            "valuetype": "date",
+            "index": 8
+          },
+          {
+            "name": "Comment",
+            "controlid": "PO1-2-6-2",
+            "valuetype": "text",
+            "index": 9
+          }
+        ]
+      },
+      {
+        "name": "Family History of obesity",
+        "controlid": "PO1-2-7",
+        "valuetype": "checklist_l",
+        "index": 10,
+        "child": [
+          {
+            "name": "Family Bariatric Operation",
+            "controlid": "PO1-2-7-1",
+            "valuetype": "checklist",
+            "unittype": "",
+            "index": 11
+          },
+          {
+            "name": "Comment",
+            "controlid": "PO1-2-7-2",
+            "valuetype": "text",
+            "index": 12
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cltype": "PO2",
+    "name": "Surgical History",
+    "item": [
+      {
+        "name": "Non-Bariatric",
+        "controlid": "OP2-1",
+        "valuetype": "heading"
+      },
+      {
+        "name": "NB-GRID",
+        "controlid": "NB-GRID",
+        "valuetype": "grid",
+        "type": "NB"
+      },
+      {
+        "name": "Bariatric",
+        "controlid": "OP2-2",
+        "valuetype": "heading"
+      },
+      {
+        "name": "BS-GRID",
+        "controlid": "BS-GRID",
+        "valuetype": "grid",
+        "type": "BS"
+      }
+    ]
+  },
+  {
+    "cltype": "PO3",
+    "name": "Medical History",
+    "item": [
+      {
+        "name": "GERD",
+        "controlid": "PO3-1-1",
+        "valuetype": "checklist_l",
+        "child": [
+          {
+            "name": "Regurgitation",
+            "controlid": "PO3-1-1-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "Heart Burn",
+            "controlid": "PO3-1-1-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "non-Classic",
+            "controlid": "PO3-1-1-3",
+            "valuetype": "checklist",
+            "index": 3
+          },
+          {
+            "name": "Duration",
+            "controlid": "PO3-1-1-4",
+            "valuetype": "text",
+            "index": 4
+          },
+          {
+            "name": "No. of attacks / week",
+            "controlid": "PO3-1-1-5",
+            "valuetype": "text",
+            "index": 5
+          },
+          {
+            "name": "Medication",
+            "controlid": "PO3-1-1-6",
+            "valuetype": "heading"
+          },
+          {
+            "name": "MED-GERD",
+            "controlid": "MED-GE",
+            "valuetype": "grid",
+            "type": "med",
+            "value": "GE"
+          },
+          {
+            "name": "EGD findings",
+            "controlid": "PO3-1-1-7",
+            "valuetype": "heading"
+          },
+          {
+            "name": "INV-GERD",
+            "controlid": "INV-EN",
+            "valuetype": "grid",
+            "type": "inv",
+            "value": "EN"
+          }
+        ]
+      },
+
+      {
+        "name": "Diabetes Mellitus",
+        "controlid": "PO3-2-1",
+        "valuetype": "checklist_l",
+        "child": [
+          {
+            "name": "Type",
+            "controlid": "PO3-2-1-1",
+            "valuetype": "combox",
+            "index": 1,
+            "values": [
+              {
+                "name": "Prediabetic",
+                "value": 1
+              },
+              {
+                "name": "Type 1",
+                "value": 2
+              },
+              {
+                "name": "Type 2",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "name": "Duration",
+            "controlid": "PO3-2-1-2",
+            "valuetype": "text",
+            "index": 3
+          },
+          {
+            "name": "Controlled",
+            "controlid": "PO3-2-1-3",
+            "valuetype": "checkbox",
+            "index": 2
+          },
+          {
+            "name": "Diabetic foot",
+            "controlid": "PO3-2-1-6",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "Medication",
+            "controlid": "PO3-2-1-4",
+            "valuetype": "heading"
+          },
+          {
+            "name": "MED-Diabetes",
+            "controlid": "MED-DI",
+            "valuetype": "grid",
+            "type": "med",
+            "value": "DI"
+          },
+          {
+            "name": "Laboratories",
+            "controlid": "PO3-2-1-5",
+            "valuetype": "heading"
+          },
+          {
+            "name": "INV-Diabetes",
+            "controlid": "INV-LA",
+            "valuetype": "grid",
+            "type": "inv",
+            "value": "LA"
+          }
+        ]
+      },
+
+
+      {
+        "name": "HTN",
+        "controlid": "PO3-3-1",
+        "valuetype": "checklist_l",
+        "child": [
+          {
+            "name": "Duration",
+            "controlid": "PO3-3-1-1",
+            "valuetype": "text",
+            "index": 1
+          },
+          {
+            "name": "Blood Pressure",
+            "controlid": "PO3-3-1-2",
+            "valuetype": "text",
+            "unittype": "mm/hg",
+            "index": 2
+          },
+
+          {
+            "name": "Medication",
+            "controlid": "PO3-3-1-4",
+            "valuetype": "heading",
+            "index": 3
+          },
+          {
+            "name": "MED-HTN",
+            "controlid": "MED-HT",
+            "valuetype": "grid",
+            "type": "med",
+            "value": "HT"
+          },
+          {
+            "name": "Controlled",
+            "controlid": "PO3-3-1-5",
+            "valuetype": "checkbox",
+            "index": 4
+          }
+
+        ]
+      },
+
+
+      {
+        "name": "Functional ambulatory state",
+        "controlid": "PO3-4-1",
+        "valuetype": "checklist_l",
+        "child": [
+          {
+            "name": "State",
+            "controlid": "PO3-4-1-1",
+            "valuetype": "combox",
+            "index": 1,
+            "values": [
+              {
+                "name": "(0) Able to walk > 200 ft (60 m) WITHOUT aaist device",
+                "value": 0
+              },
+              {
+                "name": "(1) Able to walk > 200 ft (60 m) with aaist device (e.g., cane or walker)",
+                "value": 1
+              },
+              {
+                "name": "(2) Able to walk 200 ft (60 m) with aaist device (e.g., cane or walker)",
+                "value": 2
+              },
+              {
+                "name": "(3) Frequent use of wheelchair",
+                "value": 3
+              },
+              {
+                "name": "(4) Bedridden",
+                "value": 4
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "name": "Cardiac Problems",
+        "controlid": "PO3-5-1",
+        "valuetype": "checklist_l",
+        "child": [
+          {
+            "name": "Dyslipidemia",
+            "controlid": "PO3-5-1-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "Ischemic heart disease",
+            "controlid": "PO3-5-1-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "Valvular heart disease",
+            "controlid": "PO3-5-1-3",
+            "valuetype": "checklist",
+            "index": 3
+          },
+          {
+            "name": "Arrhythmia",
+            "controlid": "PO3-5-1-4",
+            "valuetype": "checklist",
+            "index": 4
+          },
+          {
+            "name": "Heart failure",
+            "controlid": "PO3-5-1-5",
+            "valuetype": "checklist",
+            "index": 5
+          },
+          {
+            "name": "Cardiomyopathy",
+            "controlid": "PO3-5-1-6",
+            "valuetype": "checklist",
+            "index": 6
+          },
+          {
+            "name": "Duration",
+            "controlid": "PO3-5-1-7",
+            "valuetype": "text",
+            "index": 7
+          },
+          {
+            "name": "EF %",
+            "controlid": "PO3-5-1-8",
+            "valuetype": "text",
+            "index": 8
+          },
+          {
+            "name": "Medication",
+            "controlid": "PO3-5-1-9",
+            "valuetype": "heading",
+            "index": 9
+          },
+          {
+            "name": "MED-CARDIAC",
+            "controlid": "MED-CA",
+            "valuetype": "grid",
+            "type": "med",
+            "value": "CA"
+          },
+          {
+            "name": "Interventions",
+            "controlid": "PO3-5-1-10",
+            "valuetype": "text",
+            "index": 10
+          },
+          {
+            "name": "Comments",
+            "controlid": "PO3-5-1-11",
+            "valuetype": "text",
+            "index": 11
+          }
+        ]
+      },
+
+
+      {
+        "name": "Respiratory",
+        "controlid": "PO3-6-1",
+        "valuetype": "checklist_l",
+        "child": [
+          {
+            "name": "Obstructive sleep apnea",
+            "controlid": "PO3-6-1-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "Obesity hypoventilation syndrome",
+            "controlid": "PO3-6-1-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "bronchial asthma",
+            "controlid": "PO3-6-1-3",
+            "valuetype": "checklist",
+            "index": 3
+          },
+          {
+            "name": "COPD",
+            "controlid": "PO3-6-1-4",
+            "valuetype": "checklist",
+            "index": 4
+          },
+          {
+            "name": "interstitial fibrosis",
+            "controlid": "PO3-6-1-5",
+            "valuetype": "checklist",
+            "index": 5
+          },
+          {
+            "name": "Comments",
+            "controlid": "PO3-6-1-6",
+            "valuetype": "text",
+            "index": 6
+          }
+        ]
+      },
+
+      {
+        "name": "Thromboembolism",
+        "controlid": "PO3-7-1",
+        "valuetype": "checklist_l",
+        "child": [
+          {
+            "name": "DVT",
+            "controlid": "PO3-7-1-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "Pulmonary embolism",
+            "controlid": "PO3-7-1-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "Porto-mesenteric",
+            "controlid": "PO3-7-1-3",
+            "valuetype": "checklist",
+            "index": 3
+          },
+          {
+            "name": "Frequency",
+            "controlid": "PO3-7-1-4",
+            "valuetype": "text",
+            "index": 4
+          },
+          {
+            "name": "Date",
+            "controlid": "PO3-7-1-5",
+            "valuetype": "date",
+            "index": 5
+          },
+          {
+            "name": "Cause",
+            "controlid": "PO3-7-1-6",
+            "valuetype": "text",
+            "index": 6
+          },
+          {
+            "name": "Medication",
+            "controlid": "PO3-7-1-7",
+            "valuetype": "heading",
+            "index": 9
+          },
+          {
+            "name": "MED-Thrombo",
+            "controlid": "MED-TH",
+            "valuetype": "grid",
+            "type": "med",
+            "value": "TH"
+          }
+        ]
+      },
+
+      {
+        "name": "PCO",
+        "controlid": "PO3-8-1",
+        "valuetype": "checklist_l",
+        "specific_to": "F",
+        "child": [
+          {
+            "name": "Menstrual disturbances",
+            "controlid": "PO3-8-1-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "Primary infertility",
+            "controlid": "PO3-8-1-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "Secondary infertility",
+            "controlid": "PO3-8-1-3",
+            "valuetype": "checklist",
+            "index": 3
+          },
+          {
+            "name": "Comments",
+            "controlid": "PO3-8-1-4",
+            "valuetype": "text",
+            "index": 4
+          }
+        ]
+      },
+
+      {
+        "name": "Hepatic problems and virology",
+        "controlid": "PO3-9-1",
+        "valuetype": "checklist_l",
+        "child": [
+          {
+            "name": "Liver cirrhosis",
+            "controlid": "PO3-9-1-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "HCV",
+            "controlid": "PO3-9-1-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "HBV",
+            "controlid": "PO3-9-1-3",
+            "valuetype": "checklist",
+            "index": 3
+          },
+          {
+            "name": "NASH",
+            "controlid": "PO3-9-1-4",
+            "valuetype": "checklist",
+            "index": 4
+          },
+          {
+            "name": "Portal hypertension",
+            "controlid": "PO3-9-1-5",
+            "valuetype": "checklist",
+            "index": 5
+          },
+          {
+            "name": "HIV",
+            "controlid": "PO3-9-1-6",
+            "valuetype": "checklist",
+            "index": 6
+          },
+          {
+            "name": "Comments",
+            "controlid": "PO3-9-1-7",
+            "valuetype": "text",
+            "index": 7
+          }
+        ]
+      },
+
+      {
+        "name": "Hormonal abnormalities",
+        "controlid": "PO3-10-1",
+        "valuetype": "checklist_l",
+        "child": [
+          {
+            "name": "Hypothyroidism",
+            "controlid": "PO3-10-1-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+
+          {
+            "name": "Laboratories",
+            "controlid": "PO3-10-1-2",
+            "valuetype": "heading",
+            "index": 2
+          },
+          {
+            "name": "INV-Hormonal",
+            "controlid": "INV-LA1",
+            "valuetype": "grid",
+            "type": "inv",
+            "value": "LA",
+            "index": 3
+          },
+          {
+            "name": "Comments",
+            "controlid": "PO3-10-1-3",
+            "valuetype": "text",
+            "index": 4
+          }
+        ]
+      },
+
+      {
+        "name": "Depression",
+        "controlid": "PO3-11-1",
+        "valuetype": "checklist_l",
+        "child": [
+          {
+            "name": "Type",
+            "controlid": "PO3-11-1-1",
+            "valuetype": "combox",
+            "index": 1,
+            "values": [
+              {
+                "name": "Mild depression, no medications",
+                "value": 1
+              },
+              {
+                "name": "Moderate depression, on medications",
+                "value": 2
+              },
+              {
+                "name": "Severe depression requiring medications and/or hospital admission",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "name": "Medication",
+            "controlid": "PO3-11-1-2",
+            "valuetype": "heading"
+          },
+          {
+            "name": "MED-Depression",
+            "controlid": "MED-DE",
+            "valuetype": "grid",
+            "type": "med",
+            "value": "DE"
+          }
+        ]
+      },
+
+      {
+        "name": "Bone",
+        "controlid": "PO3-12-1",
+        "valuetype": "checklist_l",
+        "child": [
+          {
+            "name": "Back",
+            "controlid": "PO3-12-1-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "Joint",
+            "controlid": "PO3-12-1-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+
+          {
+            "name": "Symptoms",
+            "controlid": "PO3-12-1-3",
+            "valuetype": "combox",
+            "index": 3,
+            "values": [
+              {
+                "name": "(0) No symptoms of bone pain",
+                "value": 0
+              },
+              {
+                "name": "(1) Symptoms of bone pain not requiring medical treatment",
+                "value": 1
+              },
+              {
+                "name": "(2) Symptoms of bone pain requiring non-narcotic treatment",
+                "value": 2
+              },
+              {
+                "name": "(3) Chronic symptoms of bone pain requiring narcotic treatment OR degenerative changes OR positive objective findings",
+                "value": 3
+              },
+              {
+                "name": "(4) Surgery indicated",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "name": "Comments",
+            "controlid": "PO3-12-1-4",
+            "valuetype": "text",
+            "index": 4
+          }
+        ]
+      },
+
+      {
+        "name": "Eating pattern",
+        "controlid": "PO3-13-1",
+        "valuetype": "checklist_l",
+        "child": [
+          {
+            "name": "Bulk",
+            "controlid": "PO3-13-1-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "Sweet",
+            "controlid": "PO3-13-1-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "Night eating",
+            "controlid": "PO3-13-1-3",
+            "valuetype": "checklist",
+            "index": 3
+          },
+          {
+            "name": "Emotional eating",
+            "controlid": "PO3-13-1-4",
+            "valuetype": "checklist",
+            "index": 4
+          },
+          {
+            "name": "Grazer",
+            "controlid": "PO3-13-1-5",
+            "valuetype": "checklist",
+            "index": 5
+          },
+          {
+            "name": "Bulimia nervosa",
+            "controlid": "PO3-13-1-6",
+            "valuetype": "checklist",
+            "index": 6
+          },
+          {
+            "name": "Comments",
+            "controlid": "PO3-13-1-7",
+            "valuetype": "text",
+            "index": 7
+          }
+        ]
+      },
+      {
+        "name": "Other Problems",
+        "controlid": "PO3-14-1",
+        "valuetype": "checklist_l",
+        "child": [
+          {
+            "name": "Specify",
+            "controlid": "PO3-14-1-1",
+            "valuetype": "textarea",
+            "index": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cltype": "PO4",
+    "name": "Medications",
+    "item": [
+
+    ]
+  },
+  {
+    "cltype": "PO5",
+    "name": "Investigations",
+    "item": [
+
+    ]
+  },
+  {
+    "cltype": "PO6",
+    "name": "Consultations",
+    "item": [
+
+    ]
+  },
+  {
+    "cltype": "PO7",
+    "name": "Comments",
+    "item": [
+      {
+        "name": "Comments",
+        "controlid": "OP7-2",
+        "valuetype": "textarea_l"
+      }
+    ]
+  },
+  {
+    "cltype": "PO8",
+    "name": "Decision",
+    "item": [
+      {
+        "name": "Decision",
+        "controlid": "OP8-2",
+        "valuetype": "textarea_l"
+      }
+    ]
+  },
+
+
+  {
+    "cltype": "BM",
+    "name": "Anthropometric Measurements",
+    "item": [
+      {
+        "name": "Weight",
+        "controlid": "BM-1",
+        "valuetype": "float",
+        "unittype": "kg",
+        "mandatory": "Y",
+        "event": "Y",
+        "formula": "BM-3=[BM-1]_/_(_[BM-2]_*_[BM-2]_/_10000_)|BM-5=[BM-1]_-_[BM-4]",
+        "index": 1
+      },
+      {
+        "name": "Height",
+        "controlid": "BM-2",
+        "valuetype": "float",
+        "unittype": "cm",
+        "mandatory": "Y",
+        "event": "Y",
+        "formula": "BM-3=[BM-1]_/_(_[BM-2]_*_[BM-2]_/_10000_)|BM-4=25_*_[BM-2]_*_[BM-2]_/_10000|BM-5=[BM-1]_-_[BM-4]",
+        "index": 2
+      },
+      {
+        "name": "BMI",
+        "controlid": "BM-3",
+        "valuetype": "float",
+        "unittype": "kg/m2",
+        "readonly": "Y",
+        "index": 3
+      },
+      {
+        "name": "Ideal Weight",
+        "controlid": "BM-4",
+        "valuetype": "float",
+        "unittype": "kg",
+        "readonly": "Y",
+        "index": 4
+      },
+      {
+        "name": "Excess Weight",
+        "controlid": "BM-5",
+        "valuetype": "float",
+        "unittype": "kg",
+        "readonly": "Y",
+        "index": 5
+      },
+      {
+        "name": "Fat Mass",
+        "controlid": "BM-7",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 7
+      },
+      {
+        "name": "Muscle Mass",
+        "controlid": "BM-8",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 8
+      },
+      {
+        "name": "Attachment",
+        "controlid": "BM-9",
+        "valuetype": "fileupload",
+        "unittype": "",
+        "index": 8
+      }
+
+    ]
+  },
+  {
+    "cltype": "NBS",
+    "name": "Non-Bariatric",
+    "item": [
+      {
+        "name": "Surgery",
+        "controlid": "NBS-1",
+        "valuetype": "combox",
+        "index": 1,
+        "values": [
+          {
+            "name": "Cholecystectomy",
+            "value": 1
+          },
+          {
+            "name": "Abdominplasty",
+            "value": 2
+          },
+          {
+            "name": "Ventral hernia repair",
+            "value": 3
+          },
+          {
+            "name": "Anti-reflux surgery",
+            "value": 4
+          },
+          {
+            "name": "Bowel resection",
+            "value": 5
+          },
+          {
+            "name": "open exploration",
+            "value": 6
+          },
+          {
+            "name": "laparoscopic exploration",
+            "value": 7
+          },
+          {
+            "name": "cancer surgery",
+            "value": 8
+          },
+          {
+            "name": "Angioplasty (PCI)",
+            "value": 9
+          },
+          {
+            "name": "CABG",
+            "value": 10
+          },
+          {
+            "name": "Spine surgery",
+            "value": 11
+          },
+          {
+            "name": "Transplantation",
+            "value": 12
+          },
+          {
+            "name": "Other",
+            "value": 13
+          }
+        ]
+      },
+      {
+        "name": "Date",
+        "controlid": "NBS-2",
+        "valuetype": "date",
+        "index": 2
+      },
+      {
+        "name": "Comment",
+        "controlid": "NBS-3",
+        "valuetype": "ltext",
+        "index": 3
+      }
+    ]
+  },
+  {
+    "cltype": "BS",
+    "name": "Bariatric",
+    "item": [
+      {
+        "name": "Surgery",
+        "controlid": "BS-1",
+        "valuetype": "combox",
+        "index": 1,
+        "values": [
+          {
+            "name": "LAGB",
+            "value": 1
+          },
+          {
+            "name": "Sleeve Gastrectomy",
+            "value": 2
+          },
+          {
+            "name": "MGB",
+            "value": 3
+          },
+          {
+            "name": "RYGB",
+            "value": 4
+          },
+          {
+            "name": "VBG",
+            "value": 5
+          },
+          {
+            "name": "butterfly gastroplasty",
+            "value": 6
+          },
+          {
+            "name": "Intragastric ballon/capsule",
+            "value": 7
+          },
+          {
+            "name": "gastric plication",
+            "value": 8
+          },
+          {
+            "name": "SADI-S",
+            "value": 9
+          },
+          {
+            "name": "SASI",
+            "value": 10
+          },
+          {
+            "name": "Other",
+            "value": 11
+          }
+        ]
+      },
+      {
+        "name": "Date",
+        "controlid": "BS-2",
+        "valuetype": "date",
+        "index": 2
+      },
+      {
+        "name": "Other Surgery",
+        "controlid": "BS-7",
+        "valuetype": "checklist_l",
+        "child": [
+
+          {
+            "name": "Surgery",
+            "controlid": "BS-7-1",
+            "valuetype": "text",
+            "index": 9
+          }
+        ]
+      },
+      {
+        "name": "Start Weight",
+        "controlid": "BS-3",
+        "valuetype": "float",
+        "unittype": "kg",
+        "index": 3
+      },
+      {
+        "name": "Nadir Weight",
+        "controlid": "BS-4",
+        "valuetype": "float",
+        "unittype": "kg",
+        "index": 4
+      },
+      {
+        "name": "Reason for consultation",
+        "controlid": "BS-5",
+        "valuetype": "header",
+        "index": 5
+      },
+      {
+        "name": "Weight regain",
+        "controlid": "BS-5-1",
+        "valuetype": "checklist",
+        "index": 6
+      },
+      {
+        "name": "Insufficient weight loss",
+        "controlid": "BS-5-2",
+        "valuetype": "checklist",
+        "index": 7
+      },
+      {
+        "name": "Undo surgery",
+        "controlid": "BS-5-3",
+        "valuetype": "checklist",
+        "index": 8
+      },
+      {
+        "name": "Planned visit",
+        "controlid": "BS-5-4",
+        "valuetype": "checklist",
+        "index": 9
+      },
+      {
+        "name": "Complication from previous procedure",
+        "controlid": "BS-5-6",
+        "valuetype": "checklist_l",
+        "index": 10,
+        "child": [
+
+          {
+            "name": "specify",
+            "controlid": "BS-5-6-1",
+            "valuetype": "text",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "Other",
+        "controlid": "BS-5-7",
+        "valuetype": "checklist_l",
+        "index": 11,
+        "child": [
+
+          {
+            "name": "specify",
+            "controlid": "BS-5-7-1",
+            "valuetype": "text",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "Comment",
+        "controlid": "BS-6",
+        "valuetype": "ltext",
+        "index": 9
+      }
+    ]
+  },
+  {
+    "cltype": "MED",
+    "name": "Medication",
+    "item": [
+      {
+        "name": "Type",
+        "controlid": "MED-1",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "GERD",
+            "value": "GE"
+          },
+          {
+            "name": "Diabetes",
+            "value": "DI"
+          },
+          {
+            "name": "HTN",
+            "value": "HT"
+          },
+          {
+            "name": "Cardiac",
+            "value": "CA"
+          },
+          {
+            "name": "Thromboembolism",
+            "value": "TH"
+          },
+          {
+            "name": "Depression",
+            "value": "DE"
+          },
+          {
+            "name": "Other",
+            "value": "OT"
+          }
+        ],
+        "index": 1
+      },
+      {
+        "name": "Medication",
+        "controlid": "MED-2",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "Antihypertensives",
+            "value": "1"
+          },
+          {
+            "name": "OHG",
+            "value": "2"
+          },
+          {
+            "name": "Insulin",
+            "value": "3"
+          },
+          {
+            "name": "Anticoagulants - Antiplatelets",
+            "value": "4"
+          },
+          {
+            "name": "Steroids",
+            "value": "5"
+          },
+          {
+            "name": "NSAIDS",
+            "value": "6"
+          },
+          {
+            "name": "anti-reflux",
+            "value": "7"
+          },
+          {
+            "name": "Vitamins",
+            "value": "8"
+          },
+          {
+            "name": "OCPs",
+            "value": "9"
+          },
+          {
+            "name": "Hormonal therapy",
+            "value": "10"
+          },
+          {
+            "name": "other",
+            "value": "11"
+          }
+        ],
+        "index": 2
+      },
+      {
+        "name": "Name",
+        "controlid": "MED-3",
+        "valuetype": "text",
+        "index": 3
+      },
+      {
+        "name": "Start Date",
+        "controlid": "MED-4",
+        "valuetype": "date",
+        "index": 4
+      },
+      {
+        "name": "Dose",
+        "controlid": "MED-5",
+        "valuetype": "text",
+        "index": 5
+      },
+      {
+        "name": "Frequency",
+        "controlid": "MED-6",
+        "valuetype": "text",
+        "index": 6
+      },
+      {
+        "name": "Duration",
+        "controlid": "MED-7",
+        "valuetype": "text",
+        "index": 7
+      },
+      {
+        "name": "Comment",
+        "controlid": "MED-8",
+        "valuetype": "text",
+        "index": 8
+      },
+      {
+        "name": "Active",
+        "controlid": "MED-9",
+        "valuetype": "checklist",
+        "index": 9
+      }
+    ]
+  },
+  {
+    "cltype": "INV",
+    "item": [
+      {
+        "name": "Type",
+        "controlid": "INV-1",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "Endoscopy",
+            "value": "EN"
+          },
+          {
+            "name": "Laboratory",
+            "value": "LA"
+          },
+          {
+            "name": "Radiology",
+            "value": "RA"
+          },
+          {
+            "name": "Other",
+            "value": "OT"
+          }
+        ],
+        "index": 1
+      },
+      {
+        "name": "Test Name",
+        "controlid": "INV-2",
+        "valuetype": "combox",
+        "index": 2
+      },
+      {
+        "name": "Date Of investigation",
+        "controlid": "INV-3",
+        "valuetype": "date",
+        "index": 3
+      },
+      {
+        "name": "Other",
+        "controlid": "INV-7",
+        "valuetype": "checklist_l",
+        "child": [
+
+          {
+            "name": "specify",
+            "controlid": "INV-7-1",
+            "valuetype": "text",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "Result",
+        "controlid": "INV-5",
+        "valuetype": "fileupload",
+        "index": 3
+      },
+      {
+        "name": "Findings",
+        "controlid": "INV-4",
+        "valuetype": "textarea_l",
+        "index": 5
+      },
+
+
+      {
+        "name": "Hiatus hernia",
+        "controlid": "INV-6-1",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Gastritis",
+        "controlid": "INV-6-2",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Duodenitis",
+        "controlid": "INV-6-3",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "H.Pylori",
+        "controlid": "INV-6-4",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Grade A reflux",
+        "controlid": "INV-6-5",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Grade B reflux",
+        "controlid": "INV-6-6",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Grade C reflux",
+        "controlid": "INV-6-7",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Grade D reflux",
+        "controlid": "INV-6-8",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Barrett's esophagitis",
+        "controlid": "INV-6-9",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Stricture",
+        "controlid": "INV-6-10",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Twist / Kink",
+        "controlid": "INV-6-11",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Perforation",
+        "controlid": "INV-6-12",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Fistula",
+        "controlid": "INV-6-13",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "biliary reflux",
+        "controlid": "INV-6-14",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Other",
+        "controlid": "INV-6-15",
+        "valuetype": "checklist_l",
+        "child": [
+
+          {
+            "name": "specify",
+            "controlid": "INV-6-16",
+            "valuetype": "text",
+            "index": 9
+          }
+        ]
+      }
+
+
+    ]
+  },
+  {
+    "cltype": "CONS",
+    "item": [
+      {
+        "name": "Type",
+        "controlid": "CONS-1",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "Cardiac",
+            "value": "1"
+          },
+          {
+            "name": "Pulmonology",
+            "value": "2"
+          },
+          {
+            "name": "Endocrinal",
+            "value": "3"
+          },
+          {
+            "name": "Rheumatological",
+            "value": "4"
+          },
+          {
+            "name": "Oncological",
+            "value": "5"
+          },
+          {
+            "name": "Other",
+            "value": "6"
+          }
+        ],
+        "index": 1
+      },
+      {
+        "name": "Comment",
+        "controlid": "CONS-2",
+        "valuetype": "ltext",
+        "index": 2
+      },
+      {
+        "name": "Attachment",
+        "controlid": "CONS-3",
+        "valuetype": "fileupload",
+        "index": 3
+      }
+    ]
+  }
+]

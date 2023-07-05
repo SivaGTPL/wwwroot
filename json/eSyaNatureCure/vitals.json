@@ -1,0 +1,213 @@
+[
+  {
+    "cltype": "TRI",
+    "name": "Triage",
+    "item": [
+      {
+        "name": "History",
+        "controlid": "TRI-1",
+        "valuetype": "heading",
+        "index": 1
+      },
+      {
+        "name": "Chief Complaints",
+        "controlid": "TRI-1-1",
+        "valuetype": "textarea_l",
+        "index": 2
+      },
+      {
+        "name": "H.O.P.E",
+        "controlid": "TRI-1-2",
+        "valuetype": "textarea_l",
+        "index": 3
+      },
+      {
+        "name": "Past History",
+        "controlid": "TRI-1-3",
+        "valuetype": "textarea_l",
+        "index": 3
+      },
+      {
+        "name": "Family History",
+        "controlid": "TRI-1-4",
+        "valuetype": "textarea_l",
+        "index": 4
+      },
+      {
+        "name": "Medical History",
+        "controlid": "TRI-1-5",
+        "valuetype": "textarea_l",
+        "index": 5
+      },
+      {
+        "name": "Personal History",
+        "controlid": "TRI-2",
+        "valuetype": "heading",
+        "index": 6
+      },
+      {
+        "name": "Sleep",
+        "controlid": "TRI-2-1",
+        "valuetype": "textarea",
+        "index": 7
+      },
+      {
+        "name": "Urine",
+        "controlid": "TRI-2-2",
+        "valuetype": "textarea",
+        "index": 8
+      },
+      {
+        "name": "Bowel",
+        "controlid": "TRI-2-3",
+        "valuetype": "textarea",
+        "index": 9
+      },
+      {
+        "name": "Appetite",
+        "controlid": "TRI-2-4",
+        "valuetype": "textarea",
+        "index": 10
+      },
+      {
+        "name": "Habits",
+        "controlid": "TRI-3",
+        "valuetype": "heading",
+        "index": 11
+      },
+      {
+        "name": "Coffee",
+        "controlid": "TRI-3-1",
+        "valuetype": "checklist",
+        "index": 12
+      },
+      {
+        "name": "Tee",
+        "controlid": "TRI-3-2",
+        "valuetype": "checklist",
+        "index": 13
+      },
+      {
+        "name": "Smoking",
+        "controlid": "TRI-3-3",
+        "valuetype": "checklist",
+        "index": 14
+      },
+      {
+        "name": "Alcohol",
+        "controlid": "TRI-3-4",
+        "valuetype": "checklist",
+        "index": 15
+      },
+      {
+        "name": "Tobacco",
+        "controlid": "TRI-3-5",
+        "valuetype": "checklist",
+        "index": 16
+      },
+      {
+        "name": "Diet",
+        "controlid": "TRI-4",
+        "valuetype": "heading",
+        "index": 17
+      },
+      {
+        "name": "Weight",
+        "controlid": "TRI-4-1",
+        "valuetype": "float",
+        "unittype": "kg",
+        "index": 18
+      },
+      {
+        "name": "Height",
+        "controlid": "TRI-4-2",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 19
+      },
+      {
+        "name": "Vital Data",
+        "controlid": "TRI-5",
+        "valuetype": "heading",
+        "index": 20
+      },
+      {
+        "name": "Systolic B.P",
+        "controlid": "TRI-5-0",
+        "valuetype": "float",
+        "unittype": "mmHg",
+        "index": 21
+      },
+      {
+        "name": "Diastolic B.P",
+        "controlid": "TRI-5-1",
+        "valuetype": "float",
+        "unittype": "mmHg",
+        "index": 21
+      },
+      {
+        "name": "R.R",
+        "controlid": "TRI-5-2",
+        "valuetype": "float",
+        "unittype": "cpm",
+        "index": 22
+      },
+      {
+        "name": "P.R",
+        "controlid": "TRI-5-3",
+        "valuetype": "float",
+        "unittype": "bpm",
+        "index": 23
+      },
+      {
+        "name": "Temperature",
+        "controlid": "TRI-5-4",
+        "valuetype": "float",
+        "unittype": "F",
+        "index": 24
+      },
+      {
+        "name": "Systemic Examination",
+        "controlid": "TRI-6",
+        "valuetype": "heading",
+        "index": 25
+      },
+      {
+        "name": "Cardiovascular System",
+        "controlid": "TRI-6-1",
+        "valuetype": "text",
+        "index": 26
+      },
+      {
+        "name": "Respiratory System",
+        "controlid": "TRI-6-2",
+        "valuetype": "text",
+        "index": 27
+      },
+      {
+        "name": "Muscular System",
+        "controlid": "TRI-6-3",
+        "valuetype": "text",
+        "index": 28
+      },
+      {
+        "name": "Skeletal System",
+        "controlid": "TRI-6-4",
+        "valuetype": "text",
+        "index": 29
+      },
+      {
+        "name": "Endocrinology System",
+        "controlid": "TRI-6-5",
+        "valuetype": "text",
+        "index": 30
+      },
+      {
+        "name": "Skin System",
+        "controlid": "TRI-6-6",
+        "valuetype": "text",
+        "index": 31
+      }
+    ]
+  }
+]

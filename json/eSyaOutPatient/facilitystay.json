@@ -1,0 +1,1866 @@
+[
+  {
+    "cltype": "FS0",
+    "name": "Facility Stay",
+    "item": [
+      {
+        "name": "Admission Type",
+        "controlid": "FS0-1",
+        "valuetype": "combox",
+        "index": 1,
+        "mandatory": "Y",
+        "values": [
+          {
+            "name": "Planned readmission",
+            "value": "FS1"
+          },
+          {
+            "name": "Complication from bariatric procedure",
+            "value": "FS2"
+          },
+          {
+            "name": "Primary bariatric surgery",
+            "value": "FS3"
+          },
+          {
+            "name": "Revisional bariatric surgery",
+            "value": "FS4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cltype": "FS1",
+    "name": "Facility Stay 1,2",
+    "item": [
+      {
+        "name": "Date",
+        "controlid": "FS1-1",
+        "valuetype": "date",
+        "mandatory": "Y",
+        "index": 1
+      },
+      {
+        "name": "Cause",
+        "controlid": "FS1-2",
+        "valuetype": "text",
+        "mandatory": "Y",
+        "index": 2
+      },
+      {
+        "name": "Interventions",
+        "controlid": "FS1-3",
+        "valuetype": "heading",
+        "index": 3
+      },
+      {
+        "name": "INT-GRID",
+        "controlid": "INT-GRID",
+        "valuetype": "grid",
+        "type": "INT",
+        "index": 4
+      },
+      {
+        "name": "Medications",
+        "controlid": "FS1-4",
+        "valuetype": "heading",
+        "index": 5
+      },
+      {
+        "name": "MED-GRID",
+        "controlid": "MED-GRID",
+        "valuetype": "grid",
+        "type": "MED",
+        "index": 6
+      },
+      {
+        "name": "Investigations",
+        "controlid": "FS1-5",
+        "valuetype": "heading",
+        "index": 7
+      },
+      {
+        "name": "INV-GRID",
+        "controlid": "INV-GRID",
+        "valuetype": "grid",
+        "type": "INV",
+        "index": 8
+      },
+      {
+        "name": "Progress Notes",
+        "controlid": "FS1-6",
+        "valuetype": "heading",
+        "index": 9
+      },
+      {
+        "name": "PN-GRID",
+        "controlid": "PN-GRID",
+        "valuetype": "grid",
+        "type": "PN",
+        "index": 10
+      },
+      {
+        "name": "Consultations",
+        "controlid": "FS1-8",
+        "valuetype": "heading",
+        "index": 11
+      },
+      {
+        "name": "CONS-GRID",
+        "controlid": "CONS-GRID",
+        "valuetype": "grid",
+        "type": "CONS",
+        "index": 12
+      },
+      {
+        "name": "Discharge Date",
+        "controlid": "FS1-7",
+        "valuetype": "date",
+        "index": 11
+      },
+      {
+        "name": "Discharge Reason",
+        "controlid": "FS1-9",
+        "valuetype": "combox",
+        "index": 3,
+        "values": [
+          {
+            "name": "Recovery",
+            "value": 1
+          },
+          {
+            "name": "Transfer to another facility",
+            "value": 2
+          },
+          {
+            "name": "Patient request",
+            "value": 3
+          },
+          {
+            "name": "Death",
+            "value": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cltype": "FS3",
+    "name": "Facility Stay 3",
+    "item": [
+      {
+        "name": "Date",
+        "controlid": "FS3-1",
+        "valuetype": "date",
+        "mandatory": "Y",
+        "index": 1
+      },
+      {
+        "name": "Approach",
+        "controlid": "FS3-2",
+        "valuetype": "combox",
+        "index": 2,
+        "values": [
+          {
+            "name": "Laparoscopic",
+            "value": 1
+          },
+          {
+            "name": "Robotic",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "name": "Anesthesia",
+        "controlid": "FS3-3",
+        "valuetype": "combox",
+        "index": 3,
+        "values": [
+          {
+            "name": "General",
+            "value": 1
+          },
+          {
+            "name": "Regional",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "name": "Operation Type",
+        "controlid": "FS3-4",
+        "valuetype": "heading",
+        "index": 4
+      },
+      {
+        "name": "Surgery",
+        "controlid": "FS3-5",
+        "valuetype": "combox",
+        "mandatory": "Y",
+        "index": 1,
+        "values": [
+          {
+            "name": "LAGB",
+            "value": 1
+          },
+          {
+            "name": "Sleeve Gastrectomy",
+            "value": 2
+          },
+          {
+            "name": "RYGB",
+            "value": 4
+          },
+          {
+            "name": "VBG",
+            "value": 5
+          },
+          {
+            "name": "butterfly gastroplasty",
+            "value": 6
+          },
+          {
+            "name": "Intragastric ballon/capsule",
+            "value": 7
+          },
+          {
+            "name": "gastric plication",
+            "value": 8
+          },
+          {
+            "name": "SADI-S",
+            "value": 9
+          },
+          {
+            "name": "SASI",
+            "value": 10
+          },
+          {
+            "name": "MGB (OAGB)",
+            "value": 11
+          },
+          {
+            "name": "Other",
+            "value": 12
+          }
+        ]
+      },
+      {
+        "name": "<div class='col-12 pl-0' style='margin-bottom: 15px;'><div id='FS3-5_11' class='row  pl-5 pt-3' style='display:none;'>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 23
+      },
+
+      {
+        "name": "Afferent limb length",
+        "controlid": "FS3-6-1",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 1
+      },
+      {
+        "name": "Efferent limb length",
+        "controlid": "FS3-6-2",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 2
+      },
+      {
+        "name": "Total limb length",
+        "controlid": "FS3-6-3",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 3
+      },
+      {
+        "name": "Pouch length",
+        "controlid": "FS3-6-4",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 4
+      },
+
+      {
+        "name": "</div></div>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 23
+      },
+
+
+      {
+        "name": "<div class='col-12 pl-0' style='margin-bottom: 15px;'><div id='FS3-5_4' class='row  pl-5 pt-3' style='display:none;'>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 23
+      },
+
+      {
+        "name": "Roux limb length",
+        "controlid": "FS3-7-1",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 1
+      },
+      {
+        "name": "Biliopancreatic limb length",
+        "controlid": "FS3-7-2",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 2
+      },
+      {
+        "name": "Common channel",
+        "controlid": "FS3-7-3",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 3
+      },
+      {
+        "name": "Total bowel length",
+        "controlid": "FS3-7-4",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 4
+      },
+      {
+        "name": "Pouch length",
+        "controlid": "FS3-7-5",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 5
+      },
+      {
+        "name": "Petrson space closed",
+        "controlid": "FS3-7-6",
+        "valuetype": "checklist",
+        "index": 6
+      },
+      {
+        "name": "Mesenteric defect closed",
+        "controlid": "FS3-7-7",
+        "valuetype": "checklist",
+        "index": 7
+      },
+
+      {
+        "name": "</div></div>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 23
+      },
+      {
+        "name": "<div class='col-12 pl-0' style='margin-bottom: 15px;'><div id='FS3-5_2' class='row  pl-5 pt-3' style='display:none;'>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 23
+      },
+
+      {
+        "name": "bikini-line sleeve",
+        "controlid": "FS3-5-2-1",
+        "valuetype": "checklist",
+        "index": 7
+      },
+
+      {
+        "name": "</div></div>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 23
+      },
+
+      {
+        "name": "Other Surgery",
+        "controlid": "FS3-8",
+        "valuetype": "checklist_l",
+        "index": 8,
+        "child": [
+          {
+            "name": "Surgery",
+            "controlid": "FS3-8-1",
+            "valuetype": "text",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "Concomitant procedure",
+        "controlid": "FS3-9",
+        "valuetype": "heading",
+        "index": 9
+      },
+      {
+        "name": "Cholecystectomy",
+        "controlid": "FS3-10",
+        "valuetype": "checklist",
+        "index": 10
+      },
+      {
+        "name": "Hiatoplasty",
+        "controlid": "FS3-11",
+        "valuetype": "checklist",
+        "index": 11
+      },
+      {
+        "name": "Others",
+        "controlid": "FS3-12",
+        "valuetype": "checklist_l",
+        "index": 12,
+        "child": [
+          {
+            "name": "Other",
+            "controlid": "FS3-12-1",
+            "valuetype": "text",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "Staples Used",
+        "controlid": "FS3-13",
+        "valuetype": "heading",
+        "index": 13
+      },
+      {
+        "name": "ST-GRID",
+        "controlid": "ST-GRID",
+        "valuetype": "grid",
+        "type": "ST",
+        "index": 14
+      },
+      {
+        "name": "Primary Surgeon",
+        "controlid": "FS3-14",
+        "valuetype": "text",
+        "index": 15
+      },
+      {
+        "name": "First assistant",
+        "controlid": "FS3-15",
+        "valuetype": "text",
+        "index": 16
+      },
+      {
+        "name": "Second assistant",
+        "controlid": "FS3-16",
+        "valuetype": "text",
+        "index": 17
+      },
+      {
+        "name": "Operative Time",
+        "controlid": "FS3-25",
+        "valuetype": "heading",
+        "index": 18
+      },
+      {
+        "name": "Surgical (console) time",
+        "controlid": "FS3-25-1",
+        "valuetype": "float",
+        "unittype": "min",
+        "index": 1
+      },
+      {
+        "name": "Drapping time",
+        "controlid": "FS3-25-2",
+        "valuetype": "float",
+        "unittype": "min",
+        "index": 1
+      },
+      {
+        "name": "Set-up time",
+        "controlid": "FS3-25-3",
+        "valuetype": "float",
+        "unittype": "min",
+        "index": 1
+      },
+      {
+        "name": "Docking time",
+        "controlid": "FS3-25-4",
+        "valuetype": "float",
+        "unittype": "min",
+        "index": 1
+      },
+      {
+        "name": "Operative notes",
+        "controlid": "FS3-17",
+        "valuetype": "textarea_l",
+        "index": 18
+      },
+      {
+        "name": "Intraoperative observations",
+        "controlid": "FS3-18",
+        "valuetype": "checklist_l",
+        "index": 19,
+        "child": [
+          {
+            "name": "Hemangioma",
+            "controlid": "FS3-18-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "ventral hernia",
+            "controlid": "FS3-18-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "neoplasms",
+            "controlid": "FS3-18-3",
+            "valuetype": "checklist",
+            "index": 3
+          },
+          {
+            "name": "liver cirrhosis",
+            "controlid": "FS3-18-4",
+            "valuetype": "checklist",
+            "index": 4
+          },
+          {
+            "name": "Others",
+            "controlid": "FS3-18-5",
+            "valuetype": "checklist",
+            "index": 5
+          },
+          {
+            "name": "Comments",
+            "controlid": "FS3-18-6",
+            "valuetype": "text",
+            "index": 6
+          }
+        ]
+      },
+      {
+        "name": "Intra-operative complications",
+        "controlid": "FS3-19",
+        "valuetype": "checklist_l",
+        "index": 20,
+        "child": [
+          {
+            "name": "Hemorrhage",
+            "controlid": "FS3-19-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "leak",
+            "controlid": "FS3-19-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "liver injury",
+            "controlid": "FS3-19-3",
+            "valuetype": "checklist",
+            "index": 3
+          },
+          {
+            "name": "misfire",
+            "controlid": "FS3-19-4",
+            "valuetype": "checklist",
+            "index": 4
+          },
+          {
+            "name": "splenic injury",
+            "controlid": "FS3-19-5",
+            "valuetype": "checklist",
+            "index": 5
+          },
+          {
+            "name": "Others",
+            "controlid": "FS3-19-6",
+            "valuetype": "checklist",
+            "index": 6
+          },
+          {
+            "name": "Comments",
+            "controlid": "FS3-19-7",
+            "valuetype": "text",
+            "index": 7
+          }
+        ]
+      },
+      {
+        "name": "Postoperative complications",
+        "controlid": "FS3-20",
+        "valuetype": "checklist_l",
+        "index": 21,
+        "child": [
+          {
+            "name": "Hemorrhage",
+            "controlid": "FS3-20-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "hypoxia",
+            "controlid": "FS3-20-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "hyperglycemia",
+            "controlid": "FS3-20-3",
+            "valuetype": "checklist",
+            "index": 3
+          },
+          {
+            "name": "elevated blood pressure",
+            "controlid": "FS3-20-4",
+            "valuetype": "checklist",
+            "index": 4
+          },
+          {
+            "name": "leak",
+            "controlid": "FS3-20-5",
+            "valuetype": "checklist",
+            "index": 5
+          },
+          {
+            "name": "vomiting",
+            "controlid": "FS3-20-6",
+            "valuetype": "checklist",
+            "index": 6
+          },
+          {
+            "name": "Others",
+            "controlid": "FS3-20-7",
+            "valuetype": "checklist",
+            "index": 7
+          },
+          {
+            "name": "Comments",
+            "controlid": "FS3-20-8",
+            "valuetype": "text",
+            "index": 8
+          }
+        ]
+      },
+      {
+        "name": "Pain Score",
+        "controlid": "FS3-21",
+        "valuetype": "painscore",
+        "index": 22
+      },
+      {
+        "name": "Discharge Date",
+        "controlid": "FS3-22",
+        "valuetype": "date",
+        "index": 23
+      },
+      {
+        "name": "Discharge Reason",
+        "controlid": "FS3-23",
+        "valuetype": "combox",
+        "index": 3,
+        "values": [
+          {
+            "name": "Recovery",
+            "value": 1
+          },
+          {
+            "name": "Transfer to another facility",
+            "value": 2
+          },
+          {
+            "name": "Patient request",
+            "value": 3
+          },
+          {
+            "name": "Death",
+            "value": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cltype": "FS4",
+    "name": "Facility Stay 4",
+    "item": [
+      {
+        "name": "Date",
+        "controlid": "FS4-1",
+        "valuetype": "date",
+        "mandatory": "Y",
+        "index": 1
+      },
+      {
+        "name": "Approach",
+        "controlid": "FS4-2",
+        "valuetype": "combox",
+        "index": 2,
+        "values": [
+          {
+            "name": "Laparoscopic",
+            "value": 1
+          },
+          {
+            "name": "Robotic",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "name": "Anesthesia",
+        "controlid": "FS4-3",
+        "valuetype": "combox",
+        "index": 3,
+        "values": [
+          {
+            "name": "General",
+            "value": 1
+          },
+          {
+            "name": "Regional",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "name": "Primary Operation Type",
+        "controlid": "FS4-4",
+        "valuetype": "heading",
+        "index": 4
+      },
+      {
+        "name": "Surgery",
+        "controlid": "FS4-5",
+        "valuetype": "combox",
+        "mandatory": "Y",
+        "index": 1,
+        "values": [
+          {
+            "name": "LAGB",
+            "value": 1
+          },
+          {
+            "name": "Sleeve Gastrectomy",
+            "value": 2
+          },
+          {
+            "name": "RYGB",
+            "value": 4
+          },
+          {
+            "name": "VBG",
+            "value": 5
+          },
+          {
+            "name": "butterfly gastroplasty",
+            "value": 6
+          },
+          {
+            "name": "Intragastric ballon/capsule",
+            "value": 7
+          },
+          {
+            "name": "gastric plication",
+            "value": 8
+          },
+          {
+            "name": "SADI-S",
+            "value": 9
+          },
+          {
+            "name": "SASI",
+            "value": 10
+          },
+          {
+            "name": "MGB (OAGB)",
+            "value": 11
+          },
+          {
+            "name": "Other",
+            "value": 12
+          }
+        ]
+      },
+      {
+        "name": "<div class='col-12 pl-0' style='margin-bottom: 15px;'><div id='FS4-5_11' class='row  pl-5 pt-3' style='display:none;'>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 23
+      },
+
+      {
+        "name": "Afferent limb length",
+        "controlid": "FS4-5-14-1",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 23
+      },
+      {
+        "name": "Efferent limb length",
+        "controlid": "FS4-5-14-2",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 23
+      },
+      {
+        "name": "Total limb length",
+        "controlid": "FS4-5-14-3",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 23
+      },
+      {
+        "name": "Pouch length",
+        "controlid": "FS4-5-14-4",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 23
+      },
+
+      {
+        "name": "</div></div>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 23
+      },
+
+
+      {
+        "name": "<div class='col-12 pl-0' style='margin-bottom: 15px;'><div id='FS4-5_4' class='row  pl-5 pt-3' style='display:none;'>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 24
+      },
+
+      {
+        "name": "Roux limb length",
+        "controlid": "FS4-5-15-1",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 24
+      },
+      {
+        "name": "Biliopancreatic limb length",
+        "controlid": "FS4-5-15-2",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 24
+      },
+      {
+        "name": "Common channel",
+        "controlid": "FS4-5-15-3",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 24
+      },
+      {
+        "name": "Total bowel length",
+        "controlid": "FS4-5-15-4",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 24
+      },
+      {
+        "name": "Pouch length",
+        "controlid": "FS4-5-15-5",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 24
+      },
+
+      {
+        "name": "</div></div>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 24
+      },
+      {
+        "name": "<div class='col-12 pl-0' style='margin-bottom: 15px;'><div id='FS4-5_2' class='row  pl-5 pt-3' style='display:none;'>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 23
+      },
+
+      {
+        "name": "bikini-line sleeve",
+        "controlid": "FS4-5-2-1",
+        "valuetype": "checklist",
+        "index": 7
+      },
+
+      {
+        "name": "</div></div>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 23
+      },
+
+
+      {
+        "name": "Other Surgery",
+        "controlid": "FS4-5-16",
+        "valuetype": "checklist_l",
+        "index": 16,
+        "child": [
+          {
+            "name": "Surgery",
+            "controlid": "FS4-5-16-1",
+            "valuetype": "text",
+            "index": 1
+          }
+        ]
+      },
+
+
+
+
+
+
+      {
+        "name": "Operation Type",
+        "controlid": "FS4-17",
+        "valuetype": "heading",
+        "index": 17
+      },
+      {
+        "name": "Surgery",
+        "controlid": "FS4-5-18",
+        "valuetype": "combox",
+        "mandatory": "Y",
+        "index": 18,
+        "values": [
+          {
+            "name": "LAGB",
+            "value": 1
+          },
+          {
+            "name": "Sleeve Gastrectomy",
+            "value": 2
+          },
+          {
+            "name": "RYGB",
+            "value": 4
+          },
+          {
+            "name": "VBG",
+            "value": 5
+          },
+          {
+            "name": "butterfly gastroplasty",
+            "value": 6
+          },
+          {
+            "name": "Intragastric ballon/capsule",
+            "value": 7
+          },
+          {
+            "name": "gastric plication",
+            "value": 8
+          },
+          {
+            "name": "SADI-S",
+            "value": 9
+          },
+          {
+            "name": "SASI",
+            "value": 10
+          },
+          {
+            "name": "MGB (OAGB)",
+            "value": 11
+          },
+          {
+            "name": "Other",
+            "value": 12
+          }
+        ]
+      },
+
+      {
+        "name": "<div class='col-12 pl-0' style='margin-bottom: 15px;'><div id='FS4-5-18_11' class='row  pl-5 pt-3' style='display:none;'>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 19
+      },
+
+      {
+        "name": "Afferent limb length",
+        "controlid": "FS4-14-1",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 19
+      },
+      {
+        "name": "Efferent limb length",
+        "controlid": "FS4-14-2",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 19
+      },
+      {
+        "name": "Total limb length",
+        "controlid": "FS4-14-3",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 19
+      },
+      {
+        "name": "Pouch length",
+        "controlid": "FS4-14-4",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 19
+      },
+
+      {
+        "name": "</div></div>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 19
+      },
+
+      {
+        "name": "<div class='col-12 pl-0' style='margin-bottom: 15px;'><div id='FS4-5-18_4' class='row  pl-5 pt-3' style='display:none;'>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 20
+      },
+
+      {
+        "name": "Roux limb length",
+        "controlid": "FS4-15-1",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 20
+      },
+      {
+        "name": "Biliopancreatic limb length",
+        "controlid": "FS4-15-2",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 20
+      },
+      {
+        "name": "Common channel",
+        "controlid": "FS4-15-3",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 20
+      },
+      {
+        "name": "Total bowel length",
+        "controlid": "FS4-15-4",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 20
+      },
+      {
+        "name": "Pouch length",
+        "controlid": "FS4-15-5",
+        "valuetype": "float",
+        "unittype": "cm",
+        "index": 20
+      },
+      {
+        "name": "Petrson space closed",
+        "controlid": "FS4-15-6",
+        "valuetype": "checklist",
+        "index": 20
+      },
+      {
+        "name": "Mesenteric defect closed",
+        "controlid": "FS4-15-7",
+        "valuetype": "checklist",
+        "index": 20
+      },
+      {
+        "name": "</div></div>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 20
+      },
+
+      {
+        "name": "<div class='col-12 pl-0' style='margin-bottom: 15px;'><div id='FS4-5-18_2' class='row  pl-5 pt-3' style='display:none;'>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 23
+      },
+
+      {
+        "name": "Bikini-line sleeve",
+        "controlid": "FS4-5-18-2-1",
+        "valuetype": "checklist",
+        "index": 7
+      },
+
+      {
+        "name": "</div></div>",
+        "controlid": "",
+        "valuetype": "htmldiv",
+        "unittype": "",
+        "index": 23
+      },
+
+
+      {
+        "name": "Other Surgery",
+        "controlid": "FS4-16",
+        "valuetype": "checklist_l",
+        "index": 16,
+        "child": [
+          {
+            "name": "Surgery",
+            "controlid": "FS4-16-1",
+            "valuetype": "text",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "Concomitant procedure",
+        "controlid": "FS4-17",
+        "valuetype": "heading",
+        "index": 17
+      },
+      {
+        "name": "Cholecystectomy",
+        "controlid": "FS4-18",
+        "valuetype": "checklist",
+        "index": 18
+      },
+      {
+        "name": "Hiatoplasty",
+        "controlid": "FS4-19",
+        "valuetype": "checklist",
+        "index": 19
+      },
+      {
+        "name": "Others",
+        "controlid": "FS4-20",
+        "valuetype": "checklist_l",
+        "index": 20,
+        "child": [
+          {
+            "name": "Other",
+            "controlid": "FS4-20-1",
+            "valuetype": "text",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "Staples Used",
+        "controlid": "FS4-21",
+        "valuetype": "heading",
+        "index": 21
+      },
+      {
+        "name": "ST-GRID",
+        "controlid": "ST-GRID",
+        "valuetype": "grid",
+        "type": "ST",
+        "index": 22
+      },
+      {
+        "name": "Primary Surgeon",
+        "controlid": "FS4-22",
+        "valuetype": "text",
+        "index": 23
+      },
+      {
+        "name": "First assistant",
+        "controlid": "FS4-23",
+        "valuetype": "text",
+        "index": 24
+      },
+      {
+        "name": "Second assistant",
+        "controlid": "FS4-24",
+        "valuetype": "text",
+        "index": 25
+      },
+      {
+        "name": "Operative Time",
+        "controlid": "FS4-30",
+        "valuetype": "heading",
+        "index": 18
+      },
+      {
+        "name": "Surgical (console) time",
+        "controlid": "FS4-30-1",
+        "valuetype": "time",
+        "index": 1
+      },
+      {
+        "name": "Drapping time",
+        "controlid": "FS4-30-2",
+        "valuetype": "time",
+        "index": 1
+      },
+      {
+        "name": "Set-up time",
+        "controlid": "FS4-30-3",
+        "valuetype": "time",
+        "index": 1
+      },
+      {
+        "name": "Docking time",
+        "controlid": "FS4-30-4",
+        "valuetype": "time",
+        "index": 1
+      },
+      {
+        "name": "Operative notes",
+        "controlid": "FS4-25",
+        "valuetype": "textarea_l",
+        "index": 26
+      },
+      {
+        "name": "Intraoperative observations",
+        "controlid": "FS3-18",
+        "valuetype": "checklist_l",
+        "index": 19,
+        "child": [
+          {
+            "name": "Hemangioma",
+            "controlid": "FS3-18-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "ventral hernia",
+            "controlid": "FS3-18-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "neoplasms",
+            "controlid": "FS3-18-3",
+            "valuetype": "checklist",
+            "index": 3
+          },
+          {
+            "name": "liver cirrhosis",
+            "controlid": "FS3-18-4",
+            "valuetype": "checklist",
+            "index": 4
+          },
+          {
+            "name": "Others",
+            "controlid": "FS3-18-5",
+            "valuetype": "checklist",
+            "index": 5
+          },
+          {
+            "name": "Comments",
+            "controlid": "FS3-18-6",
+            "valuetype": "text",
+            "index": 6
+          }
+        ]
+      },
+      {
+        "name": "Intra-operative complications",
+        "controlid": "FS3-19",
+        "valuetype": "checklist_l",
+        "index": 20,
+        "child": [
+          {
+            "name": "Hemorrhage",
+            "controlid": "FS3-19-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "leak",
+            "controlid": "FS3-19-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "liver injury",
+            "controlid": "FS3-19-3",
+            "valuetype": "checklist",
+            "index": 3
+          },
+          {
+            "name": "misfire",
+            "controlid": "FS3-19-4",
+            "valuetype": "checklist",
+            "index": 4
+          },
+          {
+            "name": "splenic injury",
+            "controlid": "FS3-19-5",
+            "valuetype": "checklist",
+            "index": 5
+          },
+          {
+            "name": "Others",
+            "controlid": "FS3-19-6",
+            "valuetype": "checklist",
+            "index": 6
+          },
+          {
+            "name": "Comments",
+            "controlid": "FS3-19-7",
+            "valuetype": "text",
+            "index": 7
+          }
+        ]
+      },
+      {
+        "name": "Postoperative complications",
+        "controlid": "FS3-20",
+        "valuetype": "checklist_l",
+        "index": 21,
+        "child": [
+          {
+            "name": "Hemorrhage",
+            "controlid": "FS3-20-1",
+            "valuetype": "checklist",
+            "index": 1
+          },
+          {
+            "name": "hypoxia",
+            "controlid": "FS3-20-2",
+            "valuetype": "checklist",
+            "index": 2
+          },
+          {
+            "name": "hyperglycemia",
+            "controlid": "FS3-20-3",
+            "valuetype": "checklist",
+            "index": 3
+          },
+          {
+            "name": "elevated blood pressure",
+            "controlid": "FS3-20-4",
+            "valuetype": "checklist",
+            "index": 4
+          },
+          {
+            "name": "leak",
+            "controlid": "FS3-20-5",
+            "valuetype": "checklist",
+            "index": 5
+          },
+          {
+            "name": "vomiting",
+            "controlid": "FS3-20-6",
+            "valuetype": "checklist",
+            "index": 6
+          },
+          {
+            "name": "Others",
+            "controlid": "FS3-20-7",
+            "valuetype": "checklist",
+            "index": 7
+          },
+          {
+            "name": "Comments",
+            "controlid": "FS3-20-8",
+            "valuetype": "text",
+            "index": 8
+          }
+        ]
+      },
+      {
+        "name": "Pain Score",
+        "controlid": "FS4-29",
+        "valuetype": "painscore",
+        "index": 30
+      },
+      {
+        "name": "Discharge Date",
+        "controlid": "FS4-30",
+        "valuetype": "date",
+        "index": 31
+      },
+      {
+        "name": "Discharge Reason",
+        "controlid": "FS4-31",
+        "valuetype": "combox",
+        "index": 3,
+        "values": [
+          {
+            "name": "Recovery",
+            "value": 1
+          },
+          {
+            "name": "Transfer to another facility",
+            "value": 2
+          },
+          {
+            "name": "Patient request",
+            "value": 3
+          },
+          {
+            "name": "Death",
+            "value": 4
+          }
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+  {
+    "cltype": "INT",
+    "name": "Interventions",
+    "item": [
+      {
+        "name": "Intervention Type",
+        "controlid": "INT-1",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "Cholecystectomy",
+            "value": "1"
+          },
+          {
+            "name": "Exploration",
+            "value": "2"
+          },
+          {
+            "name": "Percutaneous drainage",
+            "value": "3"
+          },
+          {
+            "name": "EGD intervention",
+            "value": "4"
+          },
+          {
+            "name": "ERCP",
+            "value": "5"
+          },
+          {
+            "name": "PTC",
+            "value": "6"
+          },
+          {
+            "name": "Others",
+            "value": "7"
+          }
+        ],
+        "index": 1
+      },
+      {
+        "name": "Comment",
+        "controlid": "INT-2",
+        "valuetype": "text",
+        "index": 2
+      },
+      {
+        "name": "Attachment",
+        "controlid": "INT-3",
+        "valuetype": "fileupload",
+        "index": 3
+      }
+
+    ]
+  },
+  {
+    "cltype": "PN",
+    "name": "Progress Notes",
+    "item": [
+      {
+        "name": "Notes",
+        "controlid": "PN-1",
+        "valuetype": "text",
+        "index": 1
+      }
+
+    ]
+  },
+  {
+    "cltype": "ST",
+    "name": "Staples",
+    "item": [
+      {
+        "name": "Company",
+        "controlid": "ST-1",
+        "valuetype": "text",
+        "index": 1
+      },
+      {
+        "name": "Type",
+        "controlid": "ST-2",
+        "valuetype": "text",
+        "index": 2
+      },
+      {
+        "name": "Count",
+        "controlid": "ST-3",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 3
+      }
+
+    ]
+  },
+
+  {
+    "cltype": "MED",
+    "name": "Medication",
+    "item": [
+      {
+        "name": "Type",
+        "controlid": "MED-1",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "GERD",
+            "value": "GE"
+          },
+          {
+            "name": "Diabetes",
+            "value": "DI"
+          },
+          {
+            "name": "HTN",
+            "value": "HT"
+          },
+          {
+            "name": "Cardiac",
+            "value": "CA"
+          },
+          {
+            "name": "Thromboembolism",
+            "value": "TH"
+          },
+          {
+            "name": "Depression",
+            "value": "DE"
+          },
+          {
+            "name": "Other",
+            "value": "OT"
+          }
+        ],
+        "index": 1
+      },
+      {
+        "name": "Medication",
+        "controlid": "MED-2",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "Antihypertensives",
+            "value": "1"
+          },
+          {
+            "name": "OHG",
+            "value": "2"
+          },
+          {
+            "name": "Insulin",
+            "value": "3"
+          },
+          {
+            "name": "Anticoagulants - Antiplatelets",
+            "value": "4"
+          },
+          {
+            "name": "Steroids",
+            "value": "5"
+          },
+          {
+            "name": "NSAIDS",
+            "value": "6"
+          },
+          {
+            "name": "anti-reflux",
+            "value": "7"
+          },
+          {
+            "name": "Vitamins",
+            "value": "8"
+          },
+          {
+            "name": "OCPs",
+            "value": "9"
+          },
+          {
+            "name": "Hormonal therapy",
+            "value": "10"
+          },
+          {
+            "name": "other",
+            "value": "11"
+          }
+        ],
+        "index": 2
+      },
+      {
+        "name": "Name",
+        "controlid": "MED-3",
+        "valuetype": "text",
+        "index": 3
+      },
+      {
+        "name": "Start Date",
+        "controlid": "MED-4",
+        "valuetype": "date",
+        "index": 4
+      },
+      {
+        "name": "Dose",
+        "controlid": "MED-5",
+        "valuetype": "text",
+        "index": 5
+      },
+      {
+        "name": "Frequency",
+        "controlid": "MED-6",
+        "valuetype": "text",
+        "index": 6
+      },
+      {
+        "name": "Duration",
+        "controlid": "MED-7",
+        "valuetype": "text",
+        "index": 7
+      },
+      {
+        "name": "Comment",
+        "controlid": "MED-8",
+        "valuetype": "text",
+        "index": 8
+      },
+      {
+        "name": "Active",
+        "controlid": "MED-9",
+        "valuetype": "checklist",
+        "index": 9
+      }
+    ]
+  },
+  {
+    "cltype": "INV",
+    "item": [
+      {
+        "name": "Type",
+        "controlid": "INV-1",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "Endoscopy",
+            "value": "EN"
+          },
+          {
+            "name": "Laboratory",
+            "value": "LA"
+          },
+          {
+            "name": "Radiology",
+            "value": "RA"
+          },
+          {
+            "name": "Other",
+            "value": "OT"
+          }
+        ],
+        "index": 1
+      },
+      {
+        "name": "Test Name",
+        "controlid": "INV-2",
+        "valuetype": "combox",
+        "index": 2
+      },
+      {
+        "name": "Date Of investigation",
+        "controlid": "INV-3",
+        "valuetype": "date",
+        "index": 3
+      },
+      {
+        "name": "Other",
+        "controlid": "INV-7",
+        "valuetype": "checklist_l",
+        "child": [
+
+          {
+            "name": "specify",
+            "controlid": "INV-7-1",
+            "valuetype": "text",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "Findings",
+        "controlid": "INV-4",
+        "valuetype": "textarea_l",
+        "index": 3
+      },
+      {
+        "name": "Result",
+        "controlid": "INV-5",
+        "valuetype": "fileupload",
+        "index": 5
+      },
+
+      {
+        "name": "Hiatus hernia",
+        "controlid": "INV-6-1",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Gastritis",
+        "controlid": "INV-6-2",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Duodenitis",
+        "controlid": "INV-6-3",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "H.Pylori",
+        "controlid": "INV-6-4",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Grade A reflux",
+        "controlid": "INV-6-5",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Grade B reflux",
+        "controlid": "INV-6-6",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Grade C reflux",
+        "controlid": "INV-6-7",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Grade D reflux",
+        "controlid": "INV-6-8",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Barrett's esophagitis",
+        "controlid": "INV-6-9",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Stricture",
+        "controlid": "INV-6-10",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Twist / Kink",
+        "controlid": "INV-6-11",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Perforation",
+        "controlid": "INV-6-12",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Fistula",
+        "controlid": "INV-6-13",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "biliary reflux",
+        "controlid": "INV-6-14",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Other",
+        "controlid": "INV-6-15",
+        "valuetype": "checklist_l",
+        "child": [
+
+          {
+            "name": "specify",
+            "controlid": "INV-6-16",
+            "valuetype": "text",
+            "index": 9
+          }
+        ]
+      }
+
+
+    ]
+  },
+  {
+    "cltype": "CONS",
+    "item": [
+      {
+        "name": "Type",
+        "controlid": "CONS-1",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "Cardiac",
+            "value": "1"
+          },
+          {
+            "name": "Pulmonology",
+            "value": "2"
+          },
+          {
+            "name": "Endocrinal",
+            "value": "3"
+          },
+          {
+            "name": "Rheumatological",
+            "value": "4"
+          },
+          {
+            "name": "Oncological",
+            "value": "5"
+          },
+          {
+            "name": "Other",
+            "value": "6"
+          }
+        ],
+        "index": 1
+      },
+      {
+        "name": "Comment",
+        "controlid": "CONS-2",
+        "valuetype": "ltext",
+        "index": 2
+      },
+      {
+        "name": "Attachment",
+        "controlid": "CONS-3",
+        "valuetype": "fileupload",
+        "index": 3
+      }
+    ]
+  }
+]

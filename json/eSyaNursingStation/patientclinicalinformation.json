@@ -1,0 +1,444 @@
+[
+  {
+    "cltype": "VT",
+    "item": [
+      {
+        "name": "Temperature",
+        "controlid": "VT-1",
+        "valuetype": "float",
+        "unittype": "C",
+        "index": 1
+      },
+      {
+        "name": "Pulse",
+        "controlid": "VT-2",
+        "valuetype": "float",
+        "unittype": "per min",
+        "mandatory": "Y",
+        "index": 2
+      },
+      {
+        "name": "Respiration",
+        "controlid": "VT-3",
+        "valuetype": "float",
+        "unittype": "per min",
+        "index": 3
+      },
+      {
+        "name": "Blood Pressure",
+        "controlid": "VT-4",
+        "valuetype": "float",
+        "unittype": "mm/hg",
+        "index": 4
+      },
+      {
+        "name": "Blood Drop",
+        "controlid": "VT-5",
+        "valuetype": "float",
+        "unittype": "rate/min",
+        "index": 5
+      },
+      {
+        "name": "Additional Notes",
+        "controlid": "VT-11",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 11
+      }
+    ]
+  },
+  {
+    "cltype": "IO",
+    "item": [
+      {
+        "name": "Intake",
+        "controlid": "16",
+        "valuetype": "header",
+        "category": "I",
+        "index": 0
+      },
+      {
+        "name": "Oral",
+        "controlid": "IO-I-1",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "I",
+        "event": "Y",
+        "formula": "IO-I-GT=[IO-I-1]_+_[IO-I-2]_+_[IO-I-3]_+_[IO-I-4]_+_[IO-I-5-V]_+_[IO-I-6-V]_+_[IO-I-7-V]_+_[IO-I-8-V]_+_[IO-I-9-V]_+_[IO-I-10-V]",
+        "index": 1
+      },
+      {
+        "name": "NG",
+        "controlid": "IO-I-2",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "I",
+        "event": "Y",
+        "formula": "IO-I-GT=[IO-I-1]_+_[IO-I-2]_+_[IO-I-3]_+_[IO-I-4]_+_[IO-I-5-V]_+_[IO-I-6-V]_+_[IO-I-7-V]_+_[IO-I-8-V]_+_[IO-I-9-V]_+_[IO-I-10-V]",
+        "index": 2
+      },
+      {
+        "name": "IV Fluid",
+        "controlid": "IO-I-3",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "I",
+        "event": "Y",
+        "formula": "IO-I-GT=[IO-I-1]_+_[IO-I-2]_+_[IO-I-3]_+_[IO-I-4]_+_[IO-I-5-V]_+_[IO-I-6-V]_+_[IO-I-7-V]_+_[IO-I-8-V]_+_[IO-I-9-V]_+_[IO-I-10-V]",
+        "index": 3
+      },
+      {
+        "name": "Blood/Antibiotic",
+        "controlid": "IO-I-4",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "I",
+        "event": "Y",
+        "formula": "IO-I-GT=[IO-I-1]_+_[IO-I-2]_+_[IO-I-3]_+_[IO-I-4]_+_[IO-I-5-V]_+_[IO-I-6-V]_+_[IO-I-7-V]_+_[IO-I-8-V]_+_[IO-I-9-V]_+_[IO-I-10-V]",
+        "index": 4
+      },
+      {
+        "name": "Infusions-I (Name)",
+        "controlid": "IO-I-5-N",
+        "valuetype": "text",
+        "unittype": "",
+        "category": "I",
+        "index": 5
+      },
+      {
+        "name": "Infusions-I",
+        "controlid": "IO-I-5-V",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "I",
+        "event": "Y",
+        "formula": "IO-I-GT=[IO-I-1]_+_[IO-I-2]_+_[IO-I-3]_+_[IO-I-4]_+_[IO-I-5-V]_+_[IO-I-6-V]_+_[IO-I-7-V]_+_[IO-I-8-V]_+_[IO-I-9-V]_+_[IO-I-10-V]",
+        "index": 6
+      },
+      {
+        "name": "Infusions-II (Name)",
+        "controlid": "IO-I-6-N",
+        "valuetype": "text",
+        "unittype": "",
+        "category": "I",
+        "index": 7
+      },
+      {
+        "name": "Infusions-II",
+        "controlid": "IO-I-6-V",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "I",
+        "event": "Y",
+        "formula": "IO-I-GT=[IO-I-1]_+_[IO-I-2]_+_[IO-I-3]_+_[IO-I-4]_+_[IO-I-5-V]_+_[IO-I-6-V]_+_[IO-I-7-V]_+_[IO-I-8-V]_+_[IO-I-9-V]_+_[IO-I-10-V]",
+        "index": 8
+      },
+      {
+        "name": "Infusions-III (Name)",
+        "controlid": "IO-I-7-N",
+        "valuetype": "text",
+        "unittype": "",
+        "category": "I",
+        "index": 9
+      },
+      {
+        "name": "Infusions-III",
+        "controlid": "IO-I-7-V",
+        "valuetype": "float",
+        "unittype": "",
+        "category": "I",
+        "event": "Y",
+        "formula": "IO-I-GT=[IO-I-1]_+_[IO-I-2]_+_[IO-I-3]_+_[IO-I-4]_+_[IO-I-5-V]_+_[IO-I-6-V]_+_[IO-I-7-V]_+_[IO-I-8-V]_+_[IO-I-9-V]_+_[IO-I-10-V]",
+        "index": 10
+      },
+      {
+        "name": "Infusions-IV (Name)",
+        "controlid": "IO-I-8-N",
+        "valuetype": "text",
+        "unittype": "",
+        "category": "I",
+        "index": 11
+      },
+      {
+        "name": "Infusions-IV",
+        "controlid": "IO-I-8-V",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "I",
+        "event": "Y",
+        "formula": "IO-I-GT=[IO-I-1]_+_[IO-I-2]_+_[IO-I-3]_+_[IO-I-4]_+_[IO-I-5-V]_+_[IO-I-6-V]_+_[IO-I-7-V]_+_[IO-I-8-V]_+_[IO-I-9-V]_+_[IO-I-10-V]",
+        "index": 12
+      },
+      {
+        "name": "Infusions-V (Name)",
+        "controlid": "IO-I-9-N",
+        "valuetype": "text",
+        "unittype": "",
+        "category": "I",
+        "index": 13
+      },
+      {
+        "name": "Infusions-V",
+        "controlid": "IO-I-9-V",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "I",
+        "event": "Y",
+        "formula": "IO-I-GT=[IO-I-1]_+_[IO-I-2]_+_[IO-I-3]_+_[IO-I-4]_+_[IO-I-5-V]_+_[IO-I-6-V]_+_[IO-I-7-V]_+_[IO-I-8-V]_+_[IO-I-9-V]_+_[IO-I-10-V]",
+        "index": 14
+      },
+      {
+        "name": "Infusions-VI (Name)",
+        "controlid": "IO-I-10-N",
+        "valuetype": "text",
+        "unittype": "",
+        "category": "I",
+        "index": 15
+      },
+      {
+        "name": "Infusions-VI",
+        "controlid": "IO-I-10-V",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "I",
+        "event": "Y",
+        "formula": "IO-I-GT=[IO-I-1]_+_[IO-I-2]_+_[IO-I-3]_+_[IO-I-4]_+_[IO-I-5-V]_+_[IO-I-6-V]_+_[IO-I-7-V]_+_[IO-I-8-V]_+_[IO-I-9-V]_+_[IO-I-10-V]",
+        "index": 16
+      },
+      {
+        "name": "Intake Total",
+        "controlid": "IO-I-GT",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "I",
+        "readonly": "Y",
+        "index": 17
+      },
+      {
+        "name": "Ouput",
+        "controlid": "5",
+        "valuetype": "header",
+        "category": "O",
+        "index": 20
+      },
+      {
+        "name": "Urine Output",
+        "controlid": "IO-O-1",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "O",
+        "event": "Y",
+        "formula": "IO-O-GT=[IO-O-1]_+_[IO-O-2]_+_[IO-O-3]_+_[IO-O-4]_+_[IO-O-5]",
+        "index": 21
+      },
+      {
+        "name": "RTA",
+        "controlid": "IO-O-2",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "O",
+        "event": "Y",
+        "formula": "IO-O-GT=[IO-O-1]_+_[IO-O-2]_+_[IO-O-3]_+_[IO-O-4]_+_[IO-O-5]",
+        "index": 22
+      },
+      {
+        "name": "Emesis",
+        "controlid": "IO-O-3",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "O",
+        "event": "Y",
+        "formula": "IO-O-GT=[IO-O-1]_+_[IO-O-2]_+_[IO-O-3]_+_[IO-O-4]_+_[IO-O-5]",
+        "index": 23
+      },
+      {
+        "name": "Drain-Rt",
+        "controlid": "IO-O-4",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "O",
+        "event": "Y",
+        "formula": "IO-O-GT=[IO-O-1]_+_[IO-O-2]_+_[IO-O-3]_+_[IO-O-4]_+_[IO-O-5]",
+        "index": 24
+      },
+      {
+        "name": "Drain-Lt",
+        "controlid": "IO-O-5",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "O",
+        "event": "Y",
+        "formula": "IO-O-GT=[IO-O-1]_+_[IO-O-2]_+_[IO-O-3]_+_[IO-O-4]_+_[IO-O-5]",
+        "index": 25
+      },
+      {
+        "name": "Output Total",
+        "controlid": "IO-O-GT",
+        "valuetype": "float",
+        "unittype": "ml",
+        "category": "O",
+        "readonly": "Y",
+        "index": 26
+      }
+    ]
+  },
+  {
+    "cltype": "NC",
+    "item": [
+      {
+        "name": "Mode",
+        "controlid": "NC-1",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Rate",
+        "controlid": "NC-2",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 2
+      },
+      {
+        "name": "Peep",
+        "controlid": "NC-3",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 3
+      },
+      {
+        "name": "MV",
+        "controlid": "NC-4",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 4
+      },
+      {
+        "name": "F<sub>I</sub>O<sub>2</sub>",
+        "controlid": "NC-5",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 5
+      },
+      {
+        "name": "SpO<sub>2</sub>",
+        "controlid": "NC-6",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 6
+      },
+      {
+        "name": "pH",
+        "controlid": "NC-7",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 7
+      },
+      {
+        "name": "pCO<sub>2</sub>",
+        "controlid": "NC-8",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 8
+      },
+      {
+        "name": "pO<sub>2</sub>",
+        "controlid": "NC-9",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 9
+      },
+      {
+        "name": "BE",
+        "controlid": "NC-10",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 10
+      },
+      {
+        "name": "HCO<sub>2</sub>",
+        "controlid": "NC-11",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 11
+      },
+      {
+        "name": "Sat",
+        "controlid": "NC-12",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 12
+      },
+      {
+        "name": "Na",
+        "controlid": "NC-13",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 13
+      },
+      {
+        "name": "K",
+        "controlid": "NC-14",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 14
+      },
+      {
+        "name": "Glu",
+        "controlid": "NC-15",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 15
+      },
+      {
+        "name": "ICa",
+        "controlid": "NC-16",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 16
+      },
+      {
+        "name": "CPK",
+        "controlid": "NC-17",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 17
+      },
+      {
+        "name": "Mg",
+        "controlid": "NC-18",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 18
+      },
+      {
+        "name": "Hct",
+        "controlid": "NC-19",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 19
+      },
+      {
+        "name": "Hgb",
+        "controlid": "NC-20",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 20
+      },
+      {
+        "name": "PT",
+        "controlid": "NC-21",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 21
+      },
+      {
+        "name": "PTT",
+        "controlid": "NC-22",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 22
+      }
+    ]
+  }
+]

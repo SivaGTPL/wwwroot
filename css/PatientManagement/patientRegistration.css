@@ -1,0 +1,565 @@
+﻿.form-group{
+    margin-bottom:3px !important;
+}
+.wizard > .actions{
+    padding:0px 0px;
+}
+[class^="section"] {
+    margin: 5px 0px 5px;
+    padding: 0px 10px 15px;
+    background: #fff;
+    border: 1px outset #f0f0f0;
+    /*border: 1px solid #e8e8e8;*/
+}
+.body-content section section {
+    background: #fff;
+}
+.filters{
+    padding:0px 10px;
+}
+.bg-lightGradient {
+    background: linear-gradient(to left,#ececec,#fff5c3) !important;
+}
+#btnPatientFODesc {
+    padding: .75rem 1.25rem;
+    line-height: 20px !important;
+    height: auto;
+}
+.total-cash-heading{
+    background:#555 !important;
+    color:gold;
+    padding:0px 10px;
+}
+@media only screen and (min-width: 992px) {
+    .message-notification {
+        display: none !important;
+    }
+
+    body {
+        background: #faf8f8;
+    }
+
+    #btnPassportDetails {
+       
+        min-width: 45px;
+    }
+
+    .banner {
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .body-content section {
+        background: #fff;
+        padding: 0px 10px 5px;
+        margin: 3px 0px;
+    }
+
+        .body-content section section {
+            padding: 0px 10px 5px;
+            margin: 0px -10px;
+            overflow-x: hidden;
+        }
+
+    p.subheading {
+        border-left: 0px solid #555;
+        font-size: 13px;
+        font-weight: 300;
+        color: #555; /* #a68b00 #515151;*/
+        margin: 0px;
+        margin-left: 0px;
+        padding-left: 6px;
+        letter-spacing: 0.45px;
+        padding: 3px 0px 0px;
+        margin-right: -10px;
+        border-radius: 0px;
+        font-family: roboto_bold !important;
+        background: linear-gradient(to left, #fff, #fffefb);
+    }
+
+    .current a:hover, .wizard > .steps .current a:active {
+        background: #f9d326;
+        color: #555;
+        cursor: default;
+    }
+    #txtAddress {
+        min-height: 76px !important;
+        max-height: 150px !important;
+    }
+    hr.left {
+        border-radius: 10px;
+        height: 2px;
+        background-color: #f9c92c;
+        width: 115px;
+        margin: 0px 0px 0px !important;
+    }
+
+    .spinner-border {
+        position: absolute;
+        bottom: 5px;
+        right: 15px;
+        font-size: 12px;
+        width: 16px;
+        height: 16px;
+        color: gray;
+        visibility: hidden;
+    }
+
+    .mw-30 {
+        min-width: 30px !important;
+    }
+    hr{
+        padding-top:0px !important;
+        border-top:0px !important;
+    }
+    .list-card {
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 0px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 1px, rgba(0, 0, 0, 0.14) 0px 1px 0px;
+    }
+
+    .filters .form-group {
+        margin-bottom: 0px !important;
+    }
+
+    .card-header {
+        color: #474747 !important;
+        background: linear-gradient(to top,#feeca4,#fffefa) !important;
+        /*rgba(0,0,0,.03) !important;*/
+    }
+
+        .card-header .form-check-label {
+            color: green !important;
+        }
+
+    .form-check-label {
+        font-weight: 600 !important;
+    }
+
+    .list-group-item {
+        border-color: rgba(234, 234, 234, 0.5) !important;
+    }
+
+    .form-check:hover {
+        cursor: pointer !important;
+    }
+
+    .form-check-label.patientname {
+        line-height: 16px !important;
+    }
+
+    .form-check-label.tokennumber {
+        font-size: 11px !important;
+        line-height: 14px;
+        font-weight: 300 !important;
+        color: gray !important;
+    }
+
+
+    .wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active {
+        display: block;
+        width: auto;
+        margin: 0 0em 0.005em 0em;
+        padding: 0.5em 1em;
+        text-decoration: none;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        border-radius: 0px;
+        font-size: 13px;
+        border-bottom:4px solid transparent;
+        text-transform:uppercase;
+        text-align:center;
+        font-family:helvetica-bold;
+    }
+
+    .wizard > .content > .body label {
+        margin-bottom: 0em !important
+    }
+
+    .wizard > .content > .body input {
+        display: inline-block !important;
+    }
+
+    .wizard > .content > .body ul > li {
+        display: list-item;
+        list-style-type: none;
+        padding: 5px;
+    }
+
+    .wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+        background: #fff;
+        color: #555;
+        cursor: default;
+        border-bottom-color:gold;
+    }
+
+    .wizard > .content {
+        background: #fff;
+        display: block;
+        margin: 0.005em;
+        min-height: 3em;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: relative;
+        width: auto;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    .wizard > .steps > ul > li {
+        width: 15%;
+    }
+
+    .wizard > .steps .number {
+        font-size: 1.09em;
+    }
+
+    .wizard > .content > .body {
+        float: left;
+        position: absolute;
+        width: 100%;
+        height: 90%;
+        padding: 0px 15px;
+    }
+
+    .wizard > .steps .done a, .wizard > .steps .done a:hover, .wizard > .steps .done a:active {
+        background: #d7d7d7;
+        color: #fff;
+    }
+
+    .wizard > .actions .disabled a, .wizard > .actions .disabled a:hover, .wizard > .actions .disabled a:active {
+        background: #d7d7d7 !important;
+        color: #fff !important;
+    }
+
+    .body-content {
+        padding-bottom: 0px !important;
+    }
+
+    .wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+        background: #555 !important;
+        color: gold !important;
+    }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .wizard > .content > .body {
+        width: 99%;
+        padding:0.5%;
+    }
+    .message-notification {
+        display: none !important;
+    }
+
+    .wizard > .steps > ul > li {
+        width: 25%;
+    }
+
+    .wizard > .content > .body input {
+        display: inline-block !important;
+    }
+
+    .spinner-border {
+        position: absolute;
+        bottom: 5px;
+        right: 15px;
+        font-size: 12px;
+        width: 16px;
+        height: 16px;
+        color: gray;
+        visibility: hidden;
+    }
+
+    .body-content section {
+        background: #fff;
+        padding: 0px 10px 5px;
+        margin: 3px 0px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+
+    .wizard > .content {
+        background: #fff;
+        display: block;
+        margin: 0.005em;
+        min-height: 3em;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: relative;
+        width: auto;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+    .wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+        background: #fff;
+        color: #555;
+        cursor: default;
+        border-bottom-color: gold;
+    }
+    .wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+        background: #555 !important;
+        color: gold !important;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 601px) {
+    .wizard > .content > .body {
+        width: 99%;
+        padding: 0.5%;
+    }
+    .message-notification {
+        display: none !important;
+    }
+
+    .wizard > .steps > ul > li {
+        width: 25%;
+    }
+
+    .wizard > .content > .body input {
+        display: inline-block !important;
+    }
+
+    .wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active {
+        padding: 0.25em 1em !important;
+    }
+
+    .spinner-border {
+        position: absolute;
+        bottom: 5px;
+        right: 15px;
+        font-size: 12px;
+        width: 16px;
+        height: 16px;
+        color: gray;
+        visibility: hidden;
+    }
+
+    .body-content section {
+        background: #fff;
+        padding: 0px 10px 5px;
+        margin: 3px 0px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+
+    .wizard > .content {
+        background: #fff;
+        display: block;
+        margin: 0.005em;
+        min-height: 3em;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: relative;
+        width: auto;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+    .wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+        background: #fff;
+        color: #555;
+        cursor: default;
+        border-bottom-color: gold;
+    }
+    .wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+        background: #555 !important;
+        color: gold !important;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 577px) {
+    .wizard > .content > .body {
+        width: 99%;
+        padding: 0.5%;
+    }
+    .message-notification {
+        display: none !important;
+    }
+
+    .wizard > .content > .body input {
+        display: inline-block !important;
+    }
+
+    .wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active {
+        padding: 0.25em 1em !important;
+    }
+
+    .spinner-border {
+        position: absolute;
+        bottom: 5px;
+        right: 15px;
+        font-size: 12px;
+        width: 16px;
+        height: 16px;
+        color: gray;
+        visibility: hidden;
+    }
+
+    .body-content section {
+        background: #fff;
+        padding: 0px 10px 5px;
+        margin: 3px 0px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+
+    .wizard > .content {
+        background: #fff;
+        display: block;
+        margin: 0.005em;
+        min-height: 3em;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: relative;
+        width: auto;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    .wizard > .steps > ul > li {
+        width: auto !important;
+    }
+    .wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+        background: #fff;
+        color: #555;
+        cursor: default;
+        border-bottom-color: gold;
+    }
+    .wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+        background: #555 !important;
+        color: gold !important;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 499px) {
+    .wizard > .content > .body {
+        width: 99%;
+        padding: 0.5%;
+    }
+    .message-notification {
+        display: none !important;
+    }
+
+    .wizard > .content > .body input {
+        display: inline-block !important;
+    }
+
+    .wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active {
+        padding: 0.25em 1em !important;
+    }
+
+    .spinner-border {
+        position: absolute;
+        bottom: 5px;
+        right: 15px;
+        font-size: 12px;
+        width: 16px;
+        height: 16px;
+        color: gray;
+        visibility: hidden;
+    }
+
+    .body-content section {
+        background: #fff;
+        padding: 0px 10px 5px;
+        margin: 3px 0px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+
+    .wizard > .content {
+        background: #fff;
+        display: block;
+        margin: 0.005em;
+        min-height: 3em;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: relative;
+        width: auto;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    .wizard > .steps > ul > li {
+        width: auto !important;
+    }
+    .wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+        background: #fff;
+        color: #555;
+        cursor: default;
+        border-bottom-color: gold;
+    }
+    .wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+        background: #555 !important;
+        color: gold !important;
+    }
+}
+
+@media only screen and (max-width: 498px) and (min-width: 300px) {
+    .wizard > .content > .body {
+        width: 99%;
+        padding: 0.5%;
+    }
+    .message-notification {
+        display: none !important;
+    }
+
+    .wizard > .content > .body input {
+        display: inline-block !important;
+    }
+
+    .wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active {
+        padding: 0.25em 1em !important;
+    }
+
+    .spinner-border {
+        position: absolute;
+        bottom: 5px;
+        right: 15px;
+        font-size: 12px;
+        width: 16px;
+        height: 16px;
+        color: gray;
+        visibility: hidden;
+    }
+
+    .body-content section {
+        background: #fff;
+        padding: 0px 10px 5px;
+        margin: 3px 0px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    }
+
+    .wizard > .content {
+        background: #fff;
+        display: block;
+        margin: 0.005em;
+        min-height: 3em;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: relative;
+        width: auto;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+
+    .wizard > .steps > ul > li {
+        width: auto !important;
+    }
+    .wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+        background: #fff;
+        color: #555;
+        cursor: default;
+        border-bottom-color: gold;
+    }
+    .wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+        background: #555 !important;
+        color: gold !important;
+    }
+}

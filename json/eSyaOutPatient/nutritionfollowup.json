@@ -1,0 +1,407 @@
+[
+
+  {
+    "cltype": "NF1",
+    "name": "Nutrition Follow-up",
+    "item": [
+      {
+        "name": "Anthropometric Measurements",
+        "controlid": "NF1-1",
+        "valuetype": "heading",
+        "index": 1
+      },
+      {
+        "name": "BM-GRID",
+        "controlid": "BM-GRID",
+        "valuetype": "grid",
+        "type": "BM",
+        "index": 2
+      },
+      {
+        "name": "Fluid intake",
+        "controlid": "NF1-2",
+        "valuetype": "heading",
+        "index": 3
+      },
+      {
+        "name": "FI-GRID",
+        "controlid": "FI-GRID",
+        "valuetype": "grid",
+        "type": "FI",
+        "index": 4
+      },
+      {
+        "name": "Bowel movement",
+        "controlid": "NF1-3",
+        "valuetype": "checklist_l",
+        "index": 5,
+        "child": [
+          {
+            "name": "Comments",
+            "controlid": "NF1-3-1",
+            "valuetype": "text",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "Activity level",
+        "controlid": "NF1-4",
+        "valuetype": "heading",
+        "index": 6
+      },
+      {
+        "name": "AL-GRID",
+        "controlid": "AL-GRID",
+        "valuetype": "grid",
+        "type": "AL",
+        "index": 7
+      },
+      {
+        "name": "Meal frequencies",
+        "controlid": "NF1-5",
+        "valuetype": "heading",
+        "index": 8
+      },
+      {
+        "name": "MF-GRID",
+        "controlid": "MF-GRID",
+        "valuetype": "grid",
+        "type": "MF",
+        "index": 9
+      },
+      {
+        "name": "Hair Symptoms",
+        "controlid": "NF1-6",
+        "valuetype": "checklist_l",
+        "index": 10,
+        "child": [
+          {
+            "name": "Comments",
+            "controlid": "NF1-6-1",
+            "valuetype": "text",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "24h recall",
+        "controlid": "NF1-7",
+        "valuetype": "textarea",
+        "index": 11
+      },
+      {
+        "name": "Investigations",
+        "controlid": "NF1-8",
+        "valuetype": "heading",
+        "index": 12
+      },
+      {
+        "name": "INV-GRID",
+        "controlid": "INV-GRID",
+        "valuetype": "grid",
+        "type": "INV",
+        "index": 13
+      },
+      {
+        "name": "Comments",
+        "controlid": "NF1-9",
+        "valuetype": "textarea_l",
+        "index": 14
+      }
+    ]
+  },
+
+
+  {
+    "cltype": "BM",
+    "name": "Anthropometric Measurements",
+    "item": [
+      {
+        "name": "Weight",
+        "controlid": "BM-1",
+        "valuetype": "float",
+        "unittype": "kg",
+        "mandatory": "Y",
+        "event": "Y",
+        "formula": "BM-3=[BM-1]_/_(_[BM-2]_*_[BM-2]_/_10000_)|BM-5=[BM-1]_-_[BM-4]",
+        "index": 1
+      },
+      {
+        "name": "Height",
+        "controlid": "BM-2",
+        "valuetype": "float",
+        "unittype": "cm",
+        "mandatory": "Y",
+        "event": "Y",
+        "formula": "BM-3=[BM-1]_/_(_[BM-2]_*_[BM-2]_/_10000_)|BM-4=25_*_[BM-2]_*_[BM-2]_/_10000|BM-5=[BM-1]_-_[BM-4]",
+        "index": 2
+      },
+      {
+        "name": "BMI",
+        "controlid": "BM-3",
+        "valuetype": "float",
+        "unittype": "kg/m2",
+        "readonly": "Y",
+        "index": 3
+      },
+      {
+        "name": "Ideal Weight",
+        "controlid": "BM-4",
+        "valuetype": "float",
+        "unittype": "kg",
+        "readonly": "Y",
+        "index": 4
+      },
+      {
+        "name": "Excess Weight",
+        "controlid": "BM-5",
+        "valuetype": "float",
+        "unittype": "kg",
+        "readonly": "Y",
+        "index": 5
+      },
+      {
+        "name": "Fat Mass",
+        "controlid": "BM-7",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 7
+      },
+      {
+        "name": "Muscle Mass",
+        "controlid": "BM-8",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 8
+      },
+      {
+        "name": "Attachment",
+        "controlid": "BM-9",
+        "valuetype": "fileupload",
+        "unittype": "",
+        "index": 8
+      }
+
+    ]
+  },
+
+  {
+    "cltype": "FI",
+    "name": "Fluid Intake",
+    "item": [
+      {
+        "name": "Protein Shake",
+        "controlid": "FI-1",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Water",
+        "controlid": "FI-2",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 2
+      },
+      {
+        "name": "Total",
+        "controlid": "FI-3",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 3
+      },
+      {
+        "name": "Comment",
+        "controlid": "FI-4",
+        "valuetype": "text",
+        "index": 4
+      }
+    ]
+  },
+  {
+    "cltype": "AL",
+    "name": "Activity level",
+    "item": [
+      {
+        "name": "Comment",
+        "controlid": "AL-1",
+        "valuetype": "text",
+        "index": 1
+      }
+
+    ]
+  },
+  {
+    "cltype": "MF",
+    "name": "Meal frequencies",
+    "item": [
+      {
+        "name": "Comment",
+        "controlid": "ST-1",
+        "valuetype": "text",
+        "index": 1
+      },
+      {
+        "name": "Protein intake",
+        "controlid": "ST-3",
+        "valuetype": "float",
+        "unittype": "",
+        "index": 3
+      }
+
+    ]
+  },
+  {
+    "cltype": "INV",
+    "item": [
+      {
+        "name": "Type",
+        "controlid": "INV-1",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "Endoscopy",
+            "value": "EN"
+          },
+          {
+            "name": "Laboratory",
+            "value": "LA"
+          },
+          {
+            "name": "Radiology",
+            "value": "RA"
+          },
+          {
+            "name": "Other",
+            "value": "OT"
+          }
+        ],
+        "index": 1
+      },
+      {
+        "name": "Test Name",
+        "controlid": "INV-2",
+        "valuetype": "combox",
+        "index": 2
+      },
+      {
+        "name": "Date Of investigation",
+        "controlid": "INV-3",
+        "valuetype": "date",
+        "index": 3
+      },
+      {
+        "name": "Other",
+        "controlid": "INV-7",
+        "valuetype": "checklist_l",
+        "child": [
+
+          {
+            "name": "specify",
+            "controlid": "INV-7-1",
+            "valuetype": "text",
+            "index": 1
+          }
+        ]
+      },
+      {
+        "name": "Findings",
+        "controlid": "INV-4",
+        "valuetype": "textarea_l",
+        "index": 3
+      },
+
+      {
+        "name": "Hiatus hernia",
+        "controlid": "INV-6-1",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Gastritis",
+        "controlid": "INV-6-2",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Duodenitis",
+        "controlid": "INV-6-3",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "H.Pylori",
+        "controlid": "INV-6-4",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Grade A reflux",
+        "controlid": "INV-6-5",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Grade B reflux",
+        "controlid": "INV-6-6",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Grade C reflux",
+        "controlid": "INV-6-7",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Grade D reflux",
+        "controlid": "INV-6-8",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Barrett's esophagitis",
+        "controlid": "INV-6-9",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Stricture",
+        "controlid": "INV-6-10",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Twist / Kink",
+        "controlid": "INV-6-11",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Perforation",
+        "controlid": "INV-6-12",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Fistula",
+        "controlid": "INV-6-13",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "biliary reflux",
+        "controlid": "INV-6-14",
+        "valuetype": "checklist"
+      },
+      {
+        "name": "Other",
+        "controlid": "INV-6-15",
+        "valuetype": "checklist_l",
+        "child": [
+
+          {
+            "name": "specify",
+            "controlid": "INV-6-16",
+            "valuetype": "text",
+            "index": 9
+          }
+        ]
+      },
+      {
+        "name": "Result",
+        "controlid": "INV-5",
+        "valuetype": "fileupload",
+        "index": 5
+      }
+    ]
+  }
+]

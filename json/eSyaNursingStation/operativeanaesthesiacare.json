@@ -1,0 +1,3349 @@
+[
+  {
+    "cltype": "OT1",
+    "item": [
+      {
+        "name": "Preoperative Preparation Documented",
+        "controlid": "OT1-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Vital Signs Recored",
+        "controlid": "OT1-1-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "AM Care - Sponge",
+        "controlid": "OT1-2",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 2
+      },
+      {
+        "name": "AM Care - Shower",
+        "controlid": "OT1-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 3
+      },
+      {
+        "name": "Urinary Output Amount",
+        "controlid": "OT1-4",
+        "valuetype": "float",
+        "unittype": "ml",
+        "index": 4
+      },
+      {
+        "name": "Urinary Output : Time",
+        "controlid": "OT1-5",
+        "valuetype": "datetime",
+        "unittype": "",
+        "index": 5
+      },
+      {
+        "name": "Urinary Output On Catheter",
+        "controlid": "OT1-6",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 6
+      },
+      {
+        "name": "Pre-op Medicaion Given",
+        "controlid": "OT1-7",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 7
+      },
+      {
+        "name": "Medicaion Given Time",
+        "controlid": "OT1-7-1",
+        "valuetype": "datetime",
+        "unittype": "",
+        "index": 7
+      },
+      {
+        "name": "Skin Preparation",
+        "controlid": "OT1-8",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 8
+      },
+      {
+        "name": "NBM",
+        "controlid": "OT1-9",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 9
+      },
+      {
+        "name": "Consent for Surgery",
+        "controlid": "OT1-10",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 10
+      },
+      {
+        "name": "Marking of Site",
+        "controlid": "OT1-11",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 11
+      },
+      {
+        "name": "Surgeon Sign your Site Nursing Department Confirm",
+        "controlid": "OT1-12",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 12
+      },
+      {
+        "name": "Patient UHID/IP Number & band numbers identification",
+        "controlid": "OT1-13",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 13
+      },
+      {
+        "name": "Medication profile on charts",
+        "controlid": "OT1-14",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 14
+      },
+      {
+        "name": "Allergies",
+        "controlid": "OT1-15",
+        "valuetype": "textarea_l",
+        "unittype": "",
+        "index": 15
+      },
+      {
+        "name": "Dentures / Partial Plate removed",
+        "controlid": "OT1-16",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 16
+      },
+      {
+        "name": "Contact lenses / Glasses removed and in safe keeping",
+        "controlid": "OT1-17",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 17
+      },
+      {
+        "name": "Prosthesis removed / Pacemaker",
+        "controlid": "OT1-18",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 18
+      },
+      {
+        "name": "Jewellary / Other metal removed",
+        "controlid": "OT1-19",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 19
+      },
+      {
+        "name": "High risk Consent",
+        "controlid": "OT1-20",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 20
+      },
+      {
+        "name": "Blood Requirement (Type & Cross Match Units / Screem / Hold Blood Ready)",
+        "controlid": "OT1-21",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 21
+      },
+      {
+        "name": "PAC Done",
+        "controlid": "OT1-22",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 22
+      },
+      {
+        "name": "Done by",
+        "controlid": "OT1-23",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 23
+      },
+      {
+        "name": "Done By - Date & Time",
+        "controlid": "OT1-23-1",
+        "valuetype": "datetime",
+        "unittype": "",
+        "index": 23
+      },
+      {
+        "name": "<br/>",
+        "controlid": "",
+        "valuetype": "htmltag",
+        "unittype": "",
+        "index": 23
+      },
+      {
+        "name": "Handed over to",
+        "controlid": "OT1-24",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 24
+      },
+      {
+        "name": "Handed over to - Date & Time",
+        "controlid": "OT1-24-1",
+        "valuetype": "datetime",
+        "unittype": "",
+        "index": 23
+      }
+    ]
+  },
+  {
+    "cltype": "OT2",
+    "item": [
+      {
+        "name": "Sign in (Period before induction of anaesthesia)",
+        "controlid": "OT2-1",
+        "valuetype": "heading"
+      },
+      {
+        "name": "Patient has confirmed. (Identity / site / Procedure / Consent)",
+        "controlid": "OT2-1-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Site marked / Not Applicable",
+        "controlid": "OT2-1-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Anaesthesia Safety Check Completed. (Anaesthesia Equipment / ABCDE)",
+        "controlid": "OT2-1-3",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Pulse Oxymeter on Patient and functioning",
+        "controlid": "OT2-1-4",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "DOES PATIENT HAVE A : ",
+        "controlid": "OT2-2",
+        "valuetype": "heading"
+      },
+      {
+        "name": "know Allergy",
+        "controlid": "OT2-2-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Difficult Airway / Aspiration Risk ? ",
+        "controlid": "OT2-2-2",
+        "valuetype": "checkbox",
+        "yes": "Yes, and assistance available"
+      },
+      {
+        "name": "Risk of > 500 ml Blood lose (7 ml/kg in children) ",
+        "controlid": "OT2-2-2",
+        "valuetype": "checkbox",
+        "yes": "Yes, and adequate I.V. access & Blood/Fluids Planned."
+      },
+      {
+        "name": "Time Out (Period after induction & before surgical incision)",
+        "controlid": "OT2-3",
+        "valuetype": "heading"
+      },
+      {
+        "name": "Confirm all team members have introduced themselves by name & role",
+        "controlid": "OT2-3-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Surgeon, Anaesthesis & Nurse verbally confirm (Patient / Site / Procedure)",
+        "controlid": "OT2-3-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "ANTICIPATED CRITICAL EVENTS",
+        "controlid": "OT2-4",
+        "valuetype": "heading"
+      },
+      {
+        "name": "Surgeons reviews: What are the critical or unexcepted steps, operative duration & anticipated blood loss.",
+        "controlid": "OT2-4-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Anaesthetist reviews: Are there any patient specific concerns",
+        "controlid": "OT2-4-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Nursing Team reviews: Has sterility been confirmed? Is there equipment issue or any concern ?",
+        "controlid": "OT2-4-3",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Has Antibiotic prophylaxis been given with in the last 60 minutes?",
+        "controlid": "OT2-5",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Is Essential Imaging Displayed ? ",
+        "controlid": "OT2-6",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "DVT Prophylaxis (LMWH - Given)",
+        "controlid": "OT2-7",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "DVT Prophylaxis (DVT Pump - Put)",
+        "controlid": "OT2-7",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Sign Out (Period from wound closure bill transfer of the patient from OT Room) ",
+        "controlid": "OT2-8",
+        "valuetype": "heading"
+      },
+      {
+        "name": "Nurse Verbally Confirm with the team",
+        "controlid": "OT2-7",
+        "valuetype": "heading"
+      },
+      {
+        "name": "The name of the procedure recorded",
+        "controlid": "OT2-7-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "That instrument, sponge, needle counts are correct(or not applicable)",
+        "controlid": "OT2-7-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "How the specimen is labelled (included patient name)",
+        "controlid": "OT2-7-3",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Whether there are any equipment problems to be addressed ?",
+        "controlid": "OT2-7-4",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Surgeon, Aneasthetist & Nurse review the key concerns fro recovery and management of patient & post-op orders to be given accordingly.",
+        "controlid": "OT2-7-5",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Information to patients attendants about procedure performed, condition of the patient & specimen to be shown.",
+        "controlid": "OT2-7-6",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Histopathology form to be filled properly.",
+        "controlid": "OT2-7-7",
+        "valuetype": "checkbox"
+      }
+    ]
+  },
+  {
+    "cltype": "OT3",
+    "item": [
+      {
+        "name": "Surgical Procedure",
+        "controlid": "OT3-1",
+        "valuetype": "text"
+      },
+      {
+        "name": "Height",
+        "controlid": "OT3-2",
+        "valuetype": "float",
+        "unittype": ""
+      },
+      {
+        "name": "Weight",
+        "controlid": "OT3-3",
+        "valuetype": "float",
+        "unittype": ""
+      },
+      {
+        "name": "Previous Anaesthesia / Surgery",
+        "controlid": "OT3-4",
+        "valuetype": "text"
+      },
+      {
+        "name": "Current medications",
+        "controlid": "OT3-5",
+        "valuetype": "text"
+      },
+      {
+        "name": "Off Aspirin / Antiplatelet drugs",
+        "controlid": "OT3-6",
+        "valuetype": "float",
+        "unittype": "days"
+      },
+      {
+        "name": "AIRWAY ASSESSMENT",
+        "controlid": "OT3-7",
+        "valuetype": "heading"
+      },
+      {
+        "name": "Mouth Opening",
+        "controlid": "OT3-7-1",
+        "valuetype": "text"
+      },
+      {
+        "name": "Teeth",
+        "controlid": "OT3-7-2",
+        "valuetype": "text"
+      },
+      {
+        "name": "Neck Movements",
+        "controlid": "OT3-7-3",
+        "valuetype": "text"
+      },
+      {
+        "name": "Mallampatti Score, I, II, III, IV",
+        "controlid": "OT3-7-4",
+        "valuetype": "text"
+      },
+      {
+        "name": "Intubation difficulty",
+        "controlid": "OT3-7-5",
+        "valuetype": "text"
+      },
+      {
+        "name": "Allergies",
+        "controlid": "OT3-8",
+        "valuetype": "text"
+      },
+      {
+        "name": "Blood Group",
+        "controlid": "OT3-9",
+        "valuetype": "text"
+      },
+      {
+        "name": "ASA Grading I,II, III, IV, V",
+        "controlid": "OT3-10",
+        "valuetype": "text"
+      },
+      {
+        "name": "Emergency",
+        "controlid": "OT3-11",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Respiratory System",
+        "controlid": "OT3-12",
+        "valuetype": "heading"
+      },
+      {
+        "name": "Asthma",
+        "controlid": "OT3-12-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "COPD",
+        "controlid": "OT3-12-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Pneumonia",
+        "controlid": "OT3-12-23",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Expectoration",
+        "controlid": "OT3-12-4",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Dyspnoea",
+        "controlid": "OT3-12-5",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Orthopnoea",
+        "controlid": "OT3-12-6",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Cough",
+        "controlid": "OT3-12-7",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Recent URI",
+        "controlid": "OT3-12-8",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Smoker",
+        "controlid": "OT3-12-9",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Cardio Vascular System",
+        "controlid": "OT3-13",
+        "valuetype": "heading"
+      },
+      {
+        "name": "Hypertension",
+        "controlid": "OT3-13-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "CAD/MI",
+        "controlid": "OT3-13-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Angina",
+        "controlid": "OT3-13-3",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Pacemaker",
+        "controlid": "OT3-13-4",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Cyanosis",
+        "controlid": "OT3-13-5",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "NAHA: I,II,III,IV",
+        "controlid": "OT3-13-6",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Congestive Heart Failure",
+        "controlid": "OT3-13-7",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "RHD/Valvular",
+        "controlid": "OT3-13-8",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Thrombolysed",
+        "controlid": "OT3-13-9",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Dysrhythmias",
+        "controlid": "OT3-13-10",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Clubbing",
+        "controlid": "OT3-13-11",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "CNS / Musculoskeletal System",
+        "controlid": "OT3-14",
+        "valuetype": "heading"
+      },
+      {
+        "name": "CVA/Stroke",
+        "controlid": "OT3-14-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Seizures",
+        "controlid": "OT3-14-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Paraplegia",
+        "controlid": "OT3-14-3",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Neuromuscular Disorder",
+        "controlid": "OT3-14-4",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Head Injury",
+        "controlid": "OT3-14-5",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Spinal Injury",
+        "controlid": "OT3-14-6",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Others",
+        "controlid": "OT3-14-7",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "HEPATIC/GI/RENAL",
+        "controlid": "OT3-15",
+        "valuetype": "heading"
+      },
+      {
+        "name": "Jaundice",
+        "controlid": "OT3-15-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Hepatic Failure",
+        "controlid": "OT3-15-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Splenomegaly",
+        "controlid": "OT3-15-3",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Chronic Renal Failure",
+        "controlid": "OT3-15-4",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Oliguria",
+        "controlid": "OT3-15-5",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Acid Peptic Disease",
+        "controlid": "OT3-15-6",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Hepatomegaly",
+        "controlid": "OT3-15-7",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "ENDOCRINE",
+        "controlid": "OT3-16",
+        "valuetype": "heading"
+      },
+      {
+        "name": "Diabetes",
+        "controlid": "OT3-16-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Thyroid",
+        "controlid": "OT3-16-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Pituitary",
+        "controlid": "OT3-16-3",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Adrenales",
+        "controlid": "OT3-16-4",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Ketosis",
+        "controlid": "OT3-16-5",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Hypo",
+        "controlid": "OT3-16-6",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Hyper",
+        "controlid": "OT3-16-7",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "OTHERS",
+        "controlid": "OT3-17",
+        "valuetype": "heading"
+      },
+      {
+        "name": "Anaemia",
+        "controlid": "OT3-17-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Bleeding Disorders",
+        "controlid": "OT3-17-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Cancer/Chemotherapy",
+        "controlid": "OT3-17-3",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Pregnancy",
+        "controlid": "OT3-17-4",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Psychiatry",
+        "controlid": "OT3-17-5",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Build",
+        "controlid": "OT3-17-5",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Nutrition",
+        "controlid": "OT3-17-6",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Temperature",
+        "controlid": "OT3-17-7",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "CLINICAL EVALUATION",
+        "controlid": "OT3-18",
+        "valuetype": "heading"
+      },
+      {
+        "name": "BP:",
+        "controlid": "OT3-17-1",
+        "valuetype": "float"
+      },
+      {
+        "name": "Pulse:",
+        "controlid": "OT3-17-2",
+        "valuetype": "float"
+      },
+      {
+        "name": "INVESTIGATION",
+        "controlid": "OT3-18",
+        "valuetype": "heading"
+      },
+      {
+        "name": "Chest X-Ray",
+        "controlid": "OT3-18-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Pulmonary Function Tests",
+        "controlid": "OT3-18-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "ABG",
+        "controlid": "OT3-18-3",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "line",
+        "controlid": "",
+        "valuetype": "line"
+      },
+      {
+        "name": "ECG",
+        "controlid": "OT3-19-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "ECHO",
+        "controlid": "OT3-19-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "LVEF%",
+        "controlid": "OT3-19-3",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "RWMA",
+        "controlid": "OT3-19-4",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "VALUES",
+        "controlid": "OT3-19-5",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "OTHERS",
+        "controlid": "OT3-19-6",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "CATH/ANGIO",
+        "controlid": "OT3-19-7",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "LMCA",
+        "controlid": "OT3-19-8",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "LAD",
+        "controlid": "OT3-19-9",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "CIRC",
+        "controlid": "OT3-19-10",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "RCA",
+        "controlid": "OT3-19-11",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "MRI",
+        "controlid": "OT3-19-12",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "CT SCAN",
+        "controlid": "OT3-19-13",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "SGOT",
+        "controlid": "OT3-20-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "SGPT",
+        "controlid": "OT3-20-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "ALP",
+        "controlid": "OT3-20-3",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Blood Urea",
+        "controlid": "OT3-20-4",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Na K",
+        "controlid": "OT3-20-5",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "Urine",
+        "controlid": "OT3-20-6",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "EI Albumin",
+        "controlid": "OT3-20-7",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "EI Creatinine",
+        "controlid": "OT3-20-8",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "CL HCO3",
+        "controlid": "OT3-20-9",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "FBS",
+        "controlid": "OT3-20-10",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "RBS",
+        "controlid": "OT3-20-11",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "HIV",
+        "controlid": "OT3-20-12",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "HbsAg",
+        "controlid": "OT3-20-13",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "HCV",
+        "controlid": "OT3-20-14",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "T3",
+        "controlid": "OT3-20-15",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "T",
+        "controlid": "OT3-20-16",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "TSH",
+        "controlid": "OT3-20-16",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "line",
+        "controlid": "",
+        "valuetype": "line"
+      },
+      {
+        "name": "Hb",
+        "controlid": "OT3-21-1",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "PCV",
+        "controlid": "OT3-21-2",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "TLC",
+        "controlid": "OT3-21-3",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "PLATELETS",
+        "controlid": "OT3-21-4",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "ESR",
+        "controlid": "OT3-21-5",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "BT",
+        "controlid": "OT3-21-6",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "CT",
+        "controlid": "OT3-21-7",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "PT",
+        "controlid": "OT3-21-8",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "PTT",
+        "controlid": "OT3-21-9",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "INR",
+        "controlid": "OT3-21-10",
+        "valuetype": "checkbox"
+      },
+      {
+        "name": "line",
+        "controlid": "",
+        "valuetype": "line"
+      },
+      {
+        "name": "Specific Problems of Anaesthesia",
+        "controlid": "OT3-22",
+        "valuetype": "textarea_l"
+      },
+      {
+        "name": "Plan of Anaesthesia",
+        "controlid": "OT3-23",
+        "valuetype": "textarea_l"
+      },
+      {
+        "name": "Anaesthestists Pre-OP Orders - Pre Medication",
+        "controlid": "OT3-24",
+        "valuetype": "textarea_l"
+      }
+    ]
+  },
+  {
+    "cltype": "OT4",
+    "item": [
+      {
+        "name": "Relevant History",
+        "controlid": "OT4-1",
+        "valuetype": "textarea_l",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Relevant Clinical Findnings",
+        "controlid": "OT4-2",
+        "valuetype": "textarea_l",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Specific Investigations",
+        "controlid": "OT4-3",
+        "valuetype": "textarea_l",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Medical Assessments",
+        "controlid": "OT4-4",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "High risk",
+            "value": 1
+          },
+          {
+            "name": "Moderate risk",
+            "value": 2
+          },
+          {
+            "name": "low risk ",
+            "value": 3
+          }
+        ],
+        "index": 1
+      },
+      {
+        "name": "High risk / Moderate risk/ Low risk",
+        "controlid": "OT4-4",
+        "valuetype": "Tm",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "RISK FACTORS",
+        "controlid": "",
+        "valuetype": "heading",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Medical Conditions",
+        "controlid": "OT4-5",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "Controlled",
+            "value": 1
+          },
+          {
+            "name": "Partially Controlled",
+            "value": 2
+          },
+          {
+            "name": "Uncontrolled",
+            "value": 3
+          }
+        ],
+        "index": 1
+      },
+      {
+        "name": "Specific Instructions",
+        "controlid": "OT4-6",
+        "valuetype": "textarea_l",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Physician Name",
+        "controlid": "OT4-7",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      }
+    ]
+  },
+  {
+    "cltype": "OT5",
+    "item": [
+      {
+        "name": "Anaesthesia consent taken",
+        "controlid": "OT5-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Artifical Denture/Contact lens/Hearing aids/Ornaments removed",
+        "controlid": "OT5-2",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Recent Investigation checked",
+        "controlid": "OT5-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "NPO Since",
+        "controlid": "OT5-4",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Surgery consent taken",
+        "controlid": "OT5-5",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Prophylactic Antibiotic",
+        "controlid": "OT5-6",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Test dose",
+        "controlid": "OT5-7",
+        "valuetype": "text",
+        "unittype": "am/pm",
+        "index": 1
+      },
+      {
+        "name": "Full dose",
+        "controlid": "OT5-8",
+        "valuetype": "text",
+        "unittype": "am/pm",
+        "index": 1
+      },
+      {
+        "name": "Any Significant History",
+        "controlid": "OT5-6",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "line",
+        "controlid": "",
+        "valuetype": "line"
+      },
+      {
+        "name": "Pre-Anaesthetic State",
+        "controlid": "OT5-7",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Awake",
+        "controlid": "OT5-7-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Apprehensive",
+        "controlid": "OT5-7-2",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "unco-Operative DCalm",
+        "controlid": "OT5-7-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "ASleep",
+        "controlid": "OT5-7-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Confused",
+        "controlid": "OT5-7-4",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "unresponsive",
+        "controlid": "OT5-7-5",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "GCS",
+        "controlid": "OT5-7-6",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "line",
+        "controlid": "",
+        "valuetype": "line"
+      },
+      {
+        "name": "Patient Safety",
+        "controlid": "OT5-8",
+        "valuetype": "heading",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Aneas Machine Checked",
+        "controlid": "OT5-8-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Pressure Ponits Checked",
+        "controlid": "OT5-8-2",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Eye Care",
+        "controlid": "OT5-8-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Ointment",
+        "controlid": "OT5-8-4",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Eye pad",
+        "controlid": "OT5-8-5",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "line",
+        "controlid": "",
+        "valuetype": "line"
+      },
+      {
+        "name": "GENERAL ANEASESTHETIC TECHNIQUE",
+        "controlid": "OT5-9",
+        "valuetype": "heading",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Pre-oxygenation",
+        "controlid": "OT5-9-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Induction: Intravenous/Inhalational",
+        "controlid": "OT5-9-2",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Rapid Sequence",
+        "controlid": "OT5-9-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Cricoid Pressure",
+        "controlid": "OT5-9-4",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "AIRWAY MANAGEMENT",
+        "controlid": "OT5-10",
+        "valuetype": "heading",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Laryngoscopy",
+        "controlid": "OT5-10-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Direct",
+        "controlid": "OT5-10-2",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Fibre Optic Scope",
+        "controlid": "OT5-10-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Blind",
+        "controlid": "OT5-10-4",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Difficult",
+        "controlid": "OT5-10-5",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Cormack & Lehane",
+        "controlid": "OT5-10-6",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Endo Tracheal Tube",
+        "controlid": "OT5-10-7",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Oral",
+        "controlid": "OT5-10-8",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Nasal",
+        "controlid": "OT5-10-9",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Cuff",
+        "controlid": "OT5-10-10",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "UnCuff",
+        "controlid": "OT5-10-11",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Size",
+        "controlid": "OT5-10-12",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Fixed At",
+        "controlid": "OT5-10-13",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "ETT Type",
+        "controlid": "OT5-10-14",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Regular",
+        "controlid": "OT5-10-15",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Reinforced",
+        "controlid": "OT5-10-16",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "RAE",
+        "controlid": "OT5-10-17",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "DLT",
+        "controlid": "OT5-10-18",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Others",
+        "controlid": "OT5-10-19",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Airway",
+        "controlid": "OT5-10-20",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Oral",
+        "controlid": "OT5-10-21",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "LMA",
+        "controlid": "OT5-10-22",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Nasal",
+        "controlid": "OT5-10-23",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Mask Anaesthesia",
+        "controlid": "OT5-10-24",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Nasal Cannula",
+        "controlid": "OT5-10-25",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Oxygen Mask",
+        "controlid": "OT5-10-26",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Via Tracheostomy",
+        "controlid": "OT5-10-27",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Maintance",
+        "controlid": "OT5-11",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Inhalational",
+        "controlid": "OT5-12-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "TIVA",
+        "controlid": "OT5-12-2",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "IPPV",
+        "controlid": "OT5-12-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Spontaneous",
+        "controlid": "OT5-12-4",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Position",
+        "controlid": "OT5-13",
+        "valuetype": "heading",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Supine",
+        "controlid": "OT5-13-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "R/L Lateral",
+        "controlid": "OT5-13-2",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Prone",
+        "controlid": "OT5-13-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "lithotomy",
+        "controlid": "OT5-13-4",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Trendelenberg",
+        "controlid": "OT5-13-5",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Sitting",
+        "controlid": "OT5-13-6",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Park BNECH",
+        "controlid": "OT5-13-7",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "IV Access",
+        "controlid": "OT5-14",
+        "valuetype": "heading",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Peripheral",
+        "controlid": "OT5-14-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Central Venous Line",
+        "controlid": "OT5-14-2",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "SITE",
+        "controlid": "OT5-14-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Size G",
+        "controlid": "OT5-14-4",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "REGIONAL ANAESTHESIA / ANALGEISA",
+        "controlid": "OT5-15",
+        "valuetype": "heading",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "CENTRAL BLOCKS",
+        "controlid": "OT5-16",
+        "valuetype": "heading",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "SPINAL",
+        "controlid": "OT5-16-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Needle G",
+        "controlid": "OT5-16-2",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Catheter",
+        "controlid": "OT5-16-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Single",
+        "controlid": "OT5-16-4",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Cont.",
+        "controlid": "OT5-16-5",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "REGIONAL BLOCK",
+        "controlid": "OT5-17",
+        "valuetype": "heading",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Branchial Plexus",
+        "controlid": "OT5-17-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Sciatic",
+        "controlid": "OT5-17-2",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Femoral",
+        "controlid": "OT5-17-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Ankle",
+        "controlid": "OT5-17-4",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Caudal",
+        "controlid": "OT5-17-5",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Others",
+        "controlid": "OT5-17-6",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Monitoring",
+        "controlid": "OT5-18",
+        "valuetype": "heading",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "ECG",
+        "controlid": "OT5-18-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "NIBP",
+        "controlid": "OT5-18-2",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Pulse Oxemetry",
+        "controlid": "OT5-18-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "EtCO2",
+        "controlid": "OT5-18-4",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "IBP",
+        "controlid": "OT5-18-5",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "CVP",
+        "controlid": "OT5-18-6",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Others",
+        "controlid": "OT5-18-7",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "ABP Site",
+        "controlid": "OT5-18-8",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Size G",
+        "controlid": "OT5-18-8-1",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Temperature Site",
+        "controlid": "OT5-18-8-2",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "CVP Site",
+        "controlid": "OT5-18-9",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Size G",
+        "controlid": "OT5-18-9-1",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "FIO2",
+        "controlid": "OT5-18-9-2",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "PAP Site",
+        "controlid": "OT5-18-10",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Size G",
+        "controlid": "OT5-18-10-1",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "MAC Value",
+        "controlid": "OT5-18-10-2",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "LAP",
+        "controlid": "OT5-18-11",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "C.I",
+        "controlid": "OT5-18-12",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "TOTAL FLUIDS TRANSFUSED",
+        "controlid": "OT5-19",
+        "valuetype": "heading",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Crystalloids",
+        "controlid": "OT5-19-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Colloids",
+        "controlid": "OT5-19-2",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Total Urine Outpur",
+        "controlid": "OT5-19-3",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Total Blood Loass",
+        "controlid": "OT5-19-4",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Blood",
+        "controlid": "OT5-19-5",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Blood Products",
+        "controlid": "OT5-19-6",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Total Fluid",
+        "controlid": "OT5-19-7",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Excess",
+        "controlid": "OT5-19-8",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Deficit",
+        "controlid": "OT5-19-9",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      }
+    ]
+  },
+  {
+    "cltype": "OT6",
+    "item": [
+      {
+        "name": "Diagnosis",
+        "controlid": "OT6-1",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Aneasthesiologists",
+        "controlid": "OT6-2",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Surgical Procedure",
+        "controlid": "OT6-3",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Surgeons",
+        "controlid": "OT6-4",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "line",
+        "controlid": "",
+        "valuetype": "line",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Drugs",
+        "controlid": "OT6-5",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Inhalational",
+        "controlid": "OT6-6",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "SEVO",
+        "controlid": "OT6-7",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "ISO",
+        "controlid": "OT6-8",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "HALO",
+        "controlid": "OT6-9",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Induction Agent",
+        "controlid": "OT6-10",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "NMB",
+        "controlid": "OT6-11",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Analgesics",
+        "controlid": "OT6-12",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Sedation",
+        "controlid": "OT6-13",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Other Drug - I",
+        "controlid": "OT6-14-1",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Other Drug - II",
+        "controlid": "OT6-14-2",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Other Drug - III",
+        "controlid": "OT6-14-3",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "SpO2",
+        "controlid": "OT6-16",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "EICO2",
+        "controlid": "OT6-17",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "IV Fluids",
+        "controlid": "OT6-18",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Urine Output",
+        "controlid": "OT6-19",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Blood loss",
+        "controlid": "OT6-20",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "NP Temp",
+        "controlid": "OT6-21",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "ECG",
+        "controlid": "OT6-22",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "LAP/PAP/CVP",
+        "controlid": "OT6-23",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Symbols",
+        "controlid": "OT6-24",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Systolic BP",
+        "controlid": "OT6-25",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Diastabtic BP",
+        "controlid": "OT6-26",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "HR",
+        "controlid": "OT6-27",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Baseline 200",
+        "controlid": "OT6-31",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "V Values 180",
+        "controlid": "OT6-32",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "BP 140",
+        "controlid": "OT6-33",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Pulse 120",
+        "controlid": "OT6-34",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "R.R 100",
+        "controlid": "OT6-35",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "O2 Sat 90",
+        "controlid": "OT6-36",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "ECg 70",
+        "controlid": "OT6-37",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "I 60",
+        "controlid": "OT6-38",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "II 50",
+        "controlid": "OT6-39",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "III 40",
+        "controlid": "OT6-40",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "aVF 30",
+        "controlid": "OT6-41",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "V 20",
+        "controlid": "OT6-42",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "VENT",
+        "controlid": "OT6-45",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "VCV",
+        "controlid": "OT6-46",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "PCV",
+        "controlid": "OT6-47",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "SIMV",
+        "controlid": "OT6-48",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "OTHER",
+        "controlid": "OT6-49",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "MV",
+        "controlid": "OT6-51",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "VT",
+        "controlid": "OT6-52",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "INS-P",
+        "controlid": "OT6-53",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "RR",
+        "controlid": "OT6-54",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Pmax",
+        "controlid": "OT6-55",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "PEEP",
+        "controlid": "OT6-56",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Anaesthesia Surgery",
+        "controlid": "OT6-60",
+        "valuetype": "heading",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Start",
+        "controlid": "OT6-60-1",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "End",
+        "controlid": "OT6-60-2",
+        "valuetype": "ltext",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Anaesthesia Record - Notes",
+        "controlid": "OT6-70",
+        "valuetype": "textarea_xxl",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "RECOVERY (IMMEDIATE POST-OP)",
+        "controlid": "OT6-71",
+        "valuetype": "heading",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Level of Consciousness",
+        "controlid": "OT6-71-1",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Coherence",
+        "controlid": "OT6-71-2",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Reflexes",
+        "controlid": "OT6-71-3",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "head lift",
+        "controlid": "OT6-71-4",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "P.R",
+        "controlid": "OT6-71-5",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "B.P",
+        "controlid": "OT6-71-6",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "R.R.",
+        "controlid": "OT6-71-7",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "SaO2",
+        "controlid": "OT6-71-8",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Patient Transferred To",
+        "controlid": "OT6-71-9",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "Recovery",
+            "value": 1
+          },
+          {
+            "name": "ICU",
+            "value": 2
+          }
+        ],
+        "index": 1
+      }
+    ]
+  },
+  {
+    "cltype": "OT7",
+    "item": [
+      {
+        "name": "Surgery",
+        "controlid": "OT7-1",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Surgeon",
+        "controlid": "OT7-2",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Assistants",
+        "controlid": "OT7-3",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Anaesthesiologist",
+        "controlid": "OT7-4",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Scrub Nurse",
+        "controlid": "OT7-5",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Pre-Op Diagnosis",
+        "controlid": "OT7-6",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Post-OP Diagnosis",
+        "controlid": "OT7-7",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Any Major discrepancy between PRE OP & POST - OP Diagnosis",
+        "controlid": "OT7-8-1",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Notes",
+        "controlid": "OT7-8-2",
+        "valuetype": "textarea_l",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Incision",
+        "controlid": "OT7-9",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Findings",
+        "controlid": "OT7-10",
+        "valuetype": "textarea_xl",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Procedure",
+        "controlid": "OT7-11",
+        "valuetype": "textarea_xxl",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Complications during the procedure",
+        "controlid": "OT7-15",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "If Yes, mention the details",
+        "controlid": "OT7-16",
+        "valuetype": "textarea_l",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Closure",
+        "controlid": "OT7-17",
+        "valuetype": "textarea_l",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Recovery",
+        "controlid": "OT7-18",
+        "valuetype": "textarea_l",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Specimen to be sent to Histopathology",
+        "controlid": "OT7-19",
+        "valuetype": "textarea_l",
+        "unittype": "",
+        "index": 1
+      }
+    ]
+  },
+  {
+    "cltype": "OT8",
+    "item": [
+      {
+        "name": "Procedure Start Time",
+        "controlid": "OT8-1",
+        "valuetype": "datetime",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Procedure End Time",
+        "controlid": "OT8-2",
+        "valuetype": "datetime",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Specimen",
+        "controlid": "OT8-3",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Pathology",
+        "controlid": "OT8-4",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "C/S",
+        "controlid": "OT8-5",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Frozen Section",
+        "controlid": "OT8-6",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Time Sent",
+        "controlid": "OT8-7",
+        "valuetype": "datetime",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "COUNTS",
+        "controlid": "OT8-10",
+        "valuetype": "table",
+        "table": {
+          "column": [
+            {
+              "controlid": "OT8-10-1",
+              "name": "ID"
+            },
+            {
+              "controlid": "OT8-10-2",
+              "name": "COUNT",
+              "readonly": "Y"
+            },
+            {
+              "controlid": "OT8-10-3",
+              "name": "PRE OP"
+            },
+            {
+              "controlid": "OT8-10-4",
+              "name": "RELIEF"
+            },
+            {
+              "controlid": "OT8-10-5",
+              "name": "FINAL"
+            }
+          ],
+          "row": [
+            {
+              "id": "I",
+              "OT8-10-2": "GAUZE"
+            },
+            {
+              "id": "II",
+              "OT8-10-2": "SPONGE"
+            },
+            {
+              "id": "III",
+              "OT8-10-2": "ROLLER GAUZE"
+            },
+            {
+              "id": "IV",
+              "OT8-10-2": "PEANUT / COTTONOID"
+            },
+            {
+              "id": "V",
+              "OT8-10-2": "OTHERS"
+            }
+          ]
+        }
+      },
+      {
+        "name": "C-arm mins",
+        "controlid": "OT8-11",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "PACKING (DRAINS)",
+        "controlid": "OT8-11",
+        "valuetype": "table",
+        "table": {
+          "column": [
+            {
+              "controlid": "OT8-11-1",
+              "name": "ID"
+            },
+            {
+              "controlid": "OT8-11-2",
+              "name": "SITE"
+            },
+            {
+              "controlid": "OT8-11-3",
+              "name": "SIZE"
+            }
+          ],
+          "row": [
+            { "id": "I" },
+            { "id": "II" },
+            { "id": "III" },
+            { "id": "IV" }
+          ]
+        }
+      },
+      {
+        "name": "Instument Count Correct",
+        "controlid": "OT8-12",
+        "valuetype": "checkbox",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Condition of the Patient at end of Surgery",
+        "controlid": "OT8-13",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "Stable",
+            "value": 1
+          },
+          {
+            "name": "Fair",
+            "value": 2
+          },
+          {
+            "name": "unstable",
+            "value": 3
+          }
+        ],
+        "index": 1
+      },
+      {
+        "name": "INTRAOPRATIVE NURSING NOTES",
+        "controlid": "OT8-14",
+        "valuetype": "textarea_xl",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Scrub Nurse",
+        "controlid": "OT8-15",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Circulating Nurse",
+        "controlid": "OT8-16",
+        "valuetype": "text",
+        "unittype": "",
+        "index": 1
+      }
+    ]
+  },
+  {
+    "cltype": "OT9",
+    "item": [
+      {
+        "name": "Time of shifting to recovery",
+        "controlid": "OT9-1",
+        "valuetype": "table",
+        "table": {
+          "column": [
+            {
+              "controlid": "OT9-1-1",
+              "name": "ID"
+            },
+            {
+              "controlid": "OT9-1-2",
+              "name": "Time"
+            },
+            {
+              "controlid": "OT9-1-3",
+              "name": "Temp"
+            },
+            {
+              "controlid": "OT9-1-4",
+              "name": "HR"
+            },
+            {
+              "controlid": "OT9-1-5",
+              "name": "RR"
+            },
+            {
+              "controlid": "OT9-1-6",
+              "name": "BP"
+            },
+            {
+              "controlid": "OT9-1-7",
+              "name": "SPO2"
+            },
+            {
+              "controlid": "OT9-1-8",
+              "name": "Pain Score"
+            },
+            {
+              "controlid": "OT9-1-9",
+              "name": "Sedation Score"
+            },
+            {
+              "controlid": "OT9-1-10",
+              "name": "Intake Type"
+            },
+            {
+              "controlid": "OT9-1-11",
+              "name": "Intake Amount"
+            },
+            {
+              "controlid": "OT9-1-12",
+              "name": "Output Type"
+            },
+            {
+              "controlid": "OT9-1-13",
+              "name": "Output Amount"
+            }
+          ],
+          "row": [
+            { "id": "I" },
+            { "id": "II" },
+            { "id": "III" },
+            { "id": "IV" },
+            { "id": "V" }
+          ]
+        }
+      },
+      {
+        "name": "Wound Care",
+        "controlid": "OT9-2",
+        "valuetype": "textarea_l",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Plan of Care",
+        "controlid": "OT9-3",
+        "valuetype": "textarea_l",
+        "unittype": "",
+        "index": 1
+      },
+      {
+        "name": "Sedation Score",
+        "controlid": "OT9-4",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "Awake(A)",
+            "value": "A"
+          },
+          {
+            "name": "Verbal(V)",
+            "value": "V"
+          },
+          {
+            "name": "Painful(P)",
+            "value": "P"
+          },
+          {
+            "name": "Unresposive(Un)",
+            "value": "Un"
+          }
+        ],
+        "index": 1
+      }
+    ]
+  },
+  {
+    "cltype": "OT10",
+    "item": [
+      {
+        "name": "Surgeon's Instructions",
+        "controlid": "OT10-1",
+        "valuetype": "textarea_xxl",
+        "index": 1
+      },
+      {
+        "name": "Anaesthesiologist's Instructions",
+        "controlid": "OT10-2",
+        "valuetype": "textarea_xxl",
+        "index": 1
+      }
+    ]
+  },
+  {
+    "cltype": "OT11",
+    "item": [
+      {
+        "name": "Transfer To",
+        "controlid": "OT11-1",
+        "valuetype": "combox",
+        "values": [
+          {
+            "name": "O2 Mask",
+            "value": 1
+          },
+          {
+            "name": "ETT + Spont",
+            "value": 2
+          },
+          {
+            "name": "ETT + Ventilation",
+            "value": 3
+          }
+        ],
+        "index": 1
+      },
+      {
+        "name": "Transfer Time",
+        "controlid": "OT11-2",
+        "valuetype": "datetime",
+        "index": 1
+      },
+      {
+        "name": "Vitals at Shifting",
+        "controlid": "OT11-3",
+        "valuetype": "heading",
+        "index": 1
+      },
+      {
+        "name": "BP",
+        "controlid": "OT11-3-1",
+        "valuetype": "text",
+        "index": 1
+      },
+      {
+        "name": "HR/Pluse",
+        "controlid": "OT11-3-2",
+        "valuetype": "text",
+        "index": 1
+      },
+      {
+        "name": "RR.",
+        "controlid": "OT11-3-3",
+        "valuetype": "text",
+        "index": 1
+      },
+      {
+        "name": "SPO1",
+        "controlid": "OT11-3-4",
+        "valuetype": "text",
+        "index": 1
+      },
+      {
+        "name": "POST OPERATIVE INSTRUCTION",
+        "controlid": "OT11-4",
+        "valuetype": "heading",
+        "index": 1
+      },
+      {
+        "name": "Routinely check he following every 5 to 10 minutes",
+        "controlid": "OT11-5",
+        "valuetype": "heading",
+        "index": 1
+      },
+      {
+        "name": "Pulse Rate",
+        "controlid": "OT11-5-1",
+        "valuetype": "text",
+        "index": 1
+      },
+      {
+        "name": "Blood Pressure",
+        "controlid": "OT11-5-2",
+        "valuetype": "text",
+        "index": 1
+      },
+      {
+        "name": "Respiration",
+        "controlid": "OT11-5-3",
+        "valuetype": "text",
+        "index": 1
+      },
+      {
+        "name": "MONITORS",
+        "controlid": "OT11-6",
+        "valuetype": "heading",
+        "index": 1
+      },
+      {
+        "name": "ECG",
+        "controlid": "OT11-6-1",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "CVP",
+        "controlid": "OT11-6-2",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "SaO1",
+        "controlid": "OT11-6-3",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "ABG",
+        "controlid": "OT11-6-4",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "ABP",
+        "controlid": "OT11-6-5",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "PA",
+        "controlid": "OT11-6-6",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Urine Output",
+        "controlid": "OT11-6-7",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Temp",
+        "controlid": "OT11-6-8",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "NIBP",
+        "controlid": "OT11-6-9",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "C.I",
+        "controlid": "OT11-6-10",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "RECOVERY SCORE : Ideally the patient should be discharged when total score is 10.",
+        "controlid": "OT11-7",
+        "index": 3,
+        "valuetype": "table",
+        "table": {
+          "column": [
+            {
+              "controlid": "OT11-7-1",
+              "name": "ID"
+            },
+            {
+              "controlid": "OT11-7-2",
+              "name": "Score",
+              "readonly": "Y"
+            },
+            {
+              "controlid": "OT11-7-3",
+              "name": "Respiration",
+              "readonly": "Y"
+            },
+            {
+              "controlid": "OT11-7-4",
+              "name": "BP",
+              "readonly": "Y"
+            },
+            {
+              "controlid": "OT11-7-5",
+              "name": "Consciousness",
+              "readonly": "Y"
+            },
+            {
+              "controlid": "OT11-7-6",
+              "name": "Color",
+              "readonly": "Y"
+            },
+            {
+              "controlid": "OT11-7-7",
+              "name": "Activity on command",
+              "readonly": "Y"
+            }
+          ],
+          "row": [
+            {
+              "id": "I",
+              "OT11-7-2": "2",
+              "OT11-7-3": "Can breathe Deeply & cough",
+              "OT11-7-4": "SBP + 20% of base line",
+              "OT11-7-5": "Awake alert and oriented",
+              "OT11-7-6": "Pink",
+              "OT11-7-7": "Moves all extremities"
+            },
+            {
+              "id": "II",
+              "OT11-7-2": "1",
+              "OT11-7-3": "Shallow but adequate exchange",
+              "OT11-7-4": "SBP + 20 - 50 % of base line",
+              "OT11-7-5": "Arousable but drifts back to sleep",
+              "OT11-7-6": "Pale of dusky",
+              "OT11-7-7": "Moves limbs to pain"
+            },
+            {
+              "id": "III",
+              "OT11-7-2": "0",
+              "OT11-7-3": "Apnea or obstruction",
+              "OT11-7-4": "SBP + 50% of base line",
+              "OT11-7-5": "No response to verbal commands",
+              "OT11-7-6": "Cyanotic",
+              "OT11-7-7": "Does not move to pain"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Patient's Score on Admission to Reovery",
+        "controlid": "OT11-8",
+        "valuetype": "text",
+        "index": 1
+      },
+      {
+        "name": "Patient's Score on Before Transfer",
+        "controlid": "OT11-9",
+        "valuetype": "text",
+        "index": 1
+      },
+      {
+        "name": "Patient receiving regional anaesthesia should also show signs of resolution of both sensory and motor blockade",
+        "controlid": "OT11-10",
+        "index": 3,
+        "valuetype": "table",
+        "table": {
+          "column": [
+            {
+              "controlid": "OT11-10-1",
+              "name": "ID"
+            },
+            {
+              "controlid": "OT11-10-2",
+              "name": "Time"
+            },
+            {
+              "controlid": "OT11-10-3",
+              "name": "Consciousness"
+            },
+            {
+              "controlid": "OT11-10-4",
+              "name": "Respiration"
+            },
+            {
+              "controlid": "OT11-10-5",
+              "name": "Pulse"
+            },
+            {
+              "controlid": "OT11-10-6",
+              "name": "Rate"
+            },
+            {
+              "controlid": "OT11-10-7",
+              "name": "BP"
+            },
+            {
+              "controlid": "OT11-10-8",
+              "name": "SaO2"
+            },
+            {
+              "controlid": "OT11-10-9",
+              "name": "Remarks"
+            }
+          ],
+          "row": [
+            { "id": "I" },
+            { "id": "II" },
+            { "id": "III" },
+            { "id": "IV" },
+            { "id": "V" }
+          ]
+        },
+        "level": [
+          {
+            "column": "[Time, Consciousness, ,  , , , ]",
+            "row": "[I,II,III,IV,V,VI]"
+          }
+        ]
+      },
+      {
+        "name": "POST OPERATIVE COMPLICATIONS",
+        "controlid": "OT11-11",
+        "valuetype": "heading",
+        "index": 1
+      },
+      {
+        "name": "Pain",
+        "controlid": "OT11-11-1",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Nausea/Vomiting",
+        "controlid": "OT11-11-2",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Hypo/Hyper Ventilation",
+        "controlid": "OT11-11-3",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Hypoxia",
+        "controlid": "OT11-11-4",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Laryngospasm/Bronchospasm",
+        "controlid": "OT11-11-5",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Hypo/Hypertension",
+        "controlid": "OT11-11-6",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Arrhythmia",
+        "controlid": "OT11-11-7",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Eye Injury",
+        "controlid": "OT11-11-8",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Dental Injury",
+        "controlid": "OT11-11-9",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Awareness during aneasthesia",
+        "controlid": "OT11-11-10",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Pressure Sore",
+        "controlid": "OT11-11-11",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Neurological Complications",
+        "controlid": "OT11-11-12",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Complications due to invasive lines",
+        "controlid": "OT11-11-13",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "Others",
+        "controlid": "OT11-11-14",
+        "valuetype": "checkbox",
+        "index": 1
+      },
+      {
+        "name": "POST OPERATIVE MEDICATIONS",
+        "controlid": "OT11-12",
+        "valuetype": "heading",
+        "index": 1
+      },
+      {
+        "name": "POST OPERATIVE MEDICATIONS - Notes",
+        "controlid": "OT11-12-1",
+        "valuetype": "textarea",
+        "index": 1
+      },
+      {
+        "name": "I.V. Fluids",
+        "controlid": "OT11-12-1",
+        "valuetype": "textarea",
+        "index": 1
+      },
+      {
+        "name": "Name of Anaesthetist",
+        "controlid": "OT11-13",
+        "valuetype": "text",
+        "index": 1
+      },
+      {
+        "name": "Pain Score: Above 5 Yrs.",
+        "controlid": "OT11-14",
+        "valuetype": "painscore",
+        "index": 1
+      },
+      {
+        "name": "The Behavioral Pain Scale",
+        "controlid": "OT11-15",
+        "valuetype": "table",
+        "table": {
+          "column": [
+            {
+              "controlid": "OT11-15-0",
+              "name": "ID"
+            },
+            {
+              "controlid": "OT11-15-1",
+              "name": "item Description",
+              "readonly": "Y"
+            },
+            {
+              "controlid": "OT11-15-2",
+              "name": "Score",
+              "readonly": "Y"
+            }
+          ],
+          "row": [
+            {
+              "id": "I",
+              "OT11-15-1": "Facial Expression Relaxed",
+              "OT11-15-2": "1"
+            },
+            {
+              "id": "II",
+              "OT11-15-1": "Partially tightened (brow lowering)",
+              "OT11-15-2": "2"
+            },
+            {
+              "id": "III",
+              "OT11-15-1": "Fully tightened (eyelid closing)",
+              "OT11-15-2": "3"
+            },
+            {
+              "id": "IV",
+              "OT11-15-1": "Grimacing",
+              "OT11-15-2": "4"
+            },
+            {
+              "id": "V",
+              "OT11-15-1": "Upper limbs - No Movement",
+              "OT11-15-2": "1"
+            },
+            {
+              "id": "VI",
+              "OT11-15-1": "Partially bent",
+              "OT11-15-2": "2"
+            },
+            {
+              "id": "VII",
+              "OT11-15-1": "Fully bent with finger flexion",
+              "OT11-15-2": "3"
+            },
+            {
+              "id": "VIII",
+              "OT11-15-1": "Permanently retracted",
+              "OT11-15-2": "4"
+            },
+            {
+              "id": "IX",
+              "OT11-15-1": "Compliance with Ventilation - Toleration movement",
+              "OT11-15-2": "1"
+            },
+            {
+              "id": "X",
+              "OT11-15-1": "Coughing but tolerating",
+              "OT11-15-2": "2"
+            },
+            {
+              "id": "XI",
+              "OT11-15-1": "Ventilation for most of the time fighting ventilator",
+              "OT11-15-2": "3"
+            },
+            {
+              "id": "XII",
+              "OT11-15-1": "Unable to control ventilation",
+              "OT11-15-2": "4"
+            }
+          ]
+        }
+
+
+
+
+      }
+    ]
+  }
+]

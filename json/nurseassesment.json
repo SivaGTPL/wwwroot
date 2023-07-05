@@ -1,0 +1,613 @@
+[
+  {
+    "name": "vitals",
+    "index": 1,
+    "category": [
+      {
+        "name": "vitals",
+        "item": [
+          {
+            "name": "Weight",
+            "controlid": "1-1",
+            "valuetype": "float",
+            "unittype": "kg",
+            "mandatory": "Y",
+            "event": "Y",
+            "formula": "1-10=[1-1]_/((_[1-2]_*_0.01)*(_[1-2]_*_0.01))",
+            "index": 1
+          },
+          {
+            "name": "height",
+            "controlid": "1-2",
+            "valuetype": "float",
+            "unittype": "cm",
+            "mandatory": "Y",
+            "event": "Y",
+            "formula": "1-10=[1-1]_/((_[1-2]_*_0.01)*(_[1-2]_*_0.01))",
+            "index": 2
+          },
+          {
+            "name": "Pulse",
+            "controlid": "1-3",
+            "valuetype": "float",
+            "unittype": "per min",
+            "mandatory": "Y",
+            "index": 3
+          },
+          {
+            "name": "Respiration",
+            "controlid": "1-4",
+            "valuetype": "float",
+            "unittype": "per min",
+            "index": 4
+          },
+          {
+            "name": "Blood Pressure",
+            "controlid": "1-5",
+            "controlid_2": "1-6",
+            "valuetype": "float",
+            "unittype": "mm/hg",
+            "index": 5
+          },
+          {
+            "name": "Temperature",
+            "controlid": "1-7",
+            "valuetype": "float",
+            "unittype": "C",
+            "index": 7
+          },
+          {
+            "name": "Oxygen Saturation",
+            "controlid": "1-8",
+            "valuetype": "float",
+            "unittype": "% (SpO<sub>2</sub>)",
+            "index": 8
+          },
+          {
+            "name": "Head Circumference",
+            "controlid": "1-9",
+            "valuetype": "float",
+            "unittype": "cm",
+            "index": 9
+          },
+          {
+            "name": "BMI",
+            "controlid": "1-10",
+            "valuetype": "float",
+            "unittype": "Kg/m^2",
+            "readonly": "Y",
+            "index": 10
+          },
+          {
+            "name": "Additional Notes",
+            "controlid": "1-11",
+            "valuetype": "text",
+            "unittype": "",
+            "index": 11
+          },
+          {
+            "name": "Doctor Notes",
+            "controlid": "1-12",
+            "valuetype": "text",
+            "unittype": "",
+            "index": 12,
+            "specific_to": "D"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "name": "Past History",
+    "index": 2,
+    "category": [
+      {
+        "name": "Past History (Major Illness)",
+        "item": [
+          {
+            "name": "Hypertension",
+            "controlid": "2-1",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Copd",
+            "controlid": "2-2",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Diabetes",
+            "controlid": "2-3",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Cancer",
+            "controlid": "2-4",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Heart Disease",
+            "controlid": "2-5",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Asthama",
+            "controlid": "2-6",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Hepetitis",
+            "controlid": "2-7",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Seizures",
+            "controlid": "2-8",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "TB",
+            "controlid": "2-9",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Ulcer",
+            "controlid": "2-10",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Mental Disorder",
+            "controlid": "2-11",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Stroke",
+            "controlid": "2-12",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "kidney Disease",
+            "controlid": "2-13",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Respiratory habits",
+            "controlid": "2-14",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Alcohol / Drunk",
+            "controlid": "2-15",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Tobacco",
+            "controlid": "2-16",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Cigarettes / Beedi / Cigar ",
+            "controlid": "2-17",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Vaccinations",
+            "controlid": "2-18",
+            "valuetype": "text",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Operations",
+            "controlid": "2-19",
+            "valuetype": "text",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "injuries",
+            "controlid": "2-20",
+            "valuetype": "text",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Kochs",
+            "controlid": "2-21",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Majignancy",
+            "controlid": "2-22",
+            "valuetype": "checkbox",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Personal History",
+            "controlid": "2-23",
+            "valuetype": "textarea",
+            "unittype": "",
+            "index": 1
+          },
+          {
+            "name": "Emotional Status",
+            "controlid": "2-24",
+            "valuetype": "combox",
+            "values": [
+              {
+                "name": "Anxious",
+                "value": 1
+              },
+              {
+                "name": "Co-Operation",
+                "value": 2
+              },
+              {
+                "name": "Depressed",
+                "value": 3
+              }
+            ],
+            "index": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Morse Fall Scale",
+    "index": 3,
+    "category": [
+      {
+        "name": "Morse Fall Scale",
+        "type": "morsefallscale",
+        "Variables": [
+          {
+            "name": "History of falling",
+            "controlid": "3-1",
+            "valuetype": "radio",
+            "values": [
+              {
+                "name": "Yes",
+                "score": 25,
+                "value": 1
+              },
+              {
+                "name": "No",
+                "score": 0,
+                "value": 0
+              }
+            ],
+            "index": 1
+          },
+          {
+            "name": "Secondary diagnosis",
+            "controlid": "3-2",
+            "valuetype": "radio",
+            "values": [
+              {
+                "name": "Yes",
+                "score": 15,
+                "value": 1
+              },
+              {
+                "name": "No",
+                "score": 0,
+                "value": 0
+              }
+            ],
+            "index": 1
+          },
+          {
+            "name": "Ambulatory aid",
+            "controlid": "3-3",
+            "valuetype": "radio",
+            "values": [
+              {
+                "name": "None/bed rest/nurse assist",
+                "score": 0,
+                "value": 1
+              },
+              {
+                "name": "Crutches/cane/walker",
+                "score": 15,
+                "value": 2
+              },
+              {
+                "name": "Furniture",
+                "score": 30,
+                "value": 3
+              }
+            ],
+            "index": 1
+          },
+          {
+            "name": "IV or IV Access",
+            "controlid": "3-4",
+            "valuetype": "radio",
+            "values": [
+              {
+                "name": "Yes",
+                "score": 20,
+                "value": 1
+              },
+              {
+                "name": "No",
+                "score": 0,
+                "value": 0
+              }
+            ],
+            "index": 1
+          },
+          {
+            "name": "Gait",
+            "controlid": "3-5",
+            "valuetype": "radio",
+            "values": [
+              {
+                "name": "Normal/bed rest/wheelchair",
+                "score": 0,
+                "value": 1
+              },
+              {
+                "name": "Weak",
+                "score": 10,
+                "value": 2
+              },
+              {
+                "name": "Impaired",
+                "score": 20,
+                "value": 3
+              }
+            ],
+            "index": 1
+          },
+          {
+            "name": "Mental status",
+            "controlid": "3-6",
+            "valuetype": "radio",
+            "values": [
+              {
+                "name": "Oriented to own ability",
+                "score": 0,
+                "value": 1
+              },
+              {
+                "name": "Overestimates or forgets limitations",
+                "score": 15,
+                "value": 2
+              }
+            ],
+            "index": 1
+          }
+        ],
+        "level": [
+          {
+            "risklevel": "Low Risk",
+            "score": "0-24",
+            "Action": "Implement Low Risk Fall Prevention Interventions"
+          },
+          {
+            "risklevel": "Medium Risk",
+            "score": "25-44",
+            "Action": "Implement Medium Risk Fall Prevention Interventions"
+          },
+          {
+            "risklevel": "High Risk",
+            "score": "45 and higher",
+            "Action": "Implement High Risk Fall Prevention Interventions"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vulnerable Patient Identification",
+    "index": 1,
+    "category": [
+      {
+        "name": "Vulnerable Patient Identification",
+        "item": [
+          {
+            "name": "Is Elderly or Frail",
+            "controlid": "5-1",
+            "valuetype": "checkbox",
+            "index": 1
+          },
+          {
+            "name": "Has Learning Disabilities",
+            "controlid": "5-2",
+            "valuetype": "checkbox",
+            "index": 1
+          },
+          {
+            "name": "Suffers From Mental Illness",
+            "controlid": "5-3",
+            "valuetype": "checkbox",
+            "index": 1
+          },
+          {
+            "name": "Has Physical Disabilities",
+            "controlid": "5-4",
+            "valuetype": "checkbox"
+          },
+          {
+            "name": "Is a Alocohol or Substance Dependant",
+            "controlid": "5-5",
+            "valuetype": "checkbox"
+          },
+          {
+            "name": "Is Homeless Person",
+            "controlid": "5-6",
+            "valuetype": "checkbox"
+          },
+          {
+            "name": "Is in an Abusiue Relation ship",
+            "controlid": "5-7",
+            "valuetype": "checkbox"
+          },
+          {
+            "name": "High Risk Mothers & infants",
+            "controlid": "5-8",
+            "valuetype": "checkbox"
+          },
+          {
+            "name": "Immigrants & Refugees",
+            "controlid": "5-9",
+            "valuetype": "checkbox"
+          },
+          {
+            "name": "Assault or Communal Act Victims",
+            "controlid": "5-10",
+            "valuetype": "checkbox"
+          },
+          {
+            "name": "Chronically Ill & Disabled individual",
+            "controlid": "5-11",
+            "valuetype": "checkbox"
+          },
+          {
+            "name": "Individual Who Are Suicide Or Homicide Prone",
+            "controlid": "5-12",
+            "valuetype": "checkbox"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Initial Pain Assessment",
+    "index": 1,
+    "category": [
+      {
+        "name": "Initial Pain Assessment",
+        "item": [
+          {
+            "name": "Does Patient have complaint of or admitting diagnosis of pain",
+            "controlid": "6-1",
+            "valuetype": "checkbox",
+            "index": 1
+          },
+          {
+            "name": "Pain Score",
+            "controlid": "6-2",
+            "valuetype": "painscore",
+            "index": 1
+          },
+          {
+            "name": "Location",
+            "controlid": "6-3",
+            "valuetype": "combox",
+            "values": [
+              {
+                "name": "Abdomen",
+                "value": 1
+              },
+              {
+                "name": "Back",
+                "value": 2
+              },
+              {
+                "name": "Chest",
+                "value": 3
+              },
+              {
+                "name": "Head",
+                "value": 4
+              },
+              {
+                "name": "Lower Extremity R/L",
+                "value": 5
+              },
+              {
+                "name": "Upper Extremity R/L",
+                "value": 6
+              },
+              {
+                "name": "Other",
+                "value": 7
+              }
+            ],
+            "index": 1
+          },
+          {
+            "name": "Pain Description",
+            "controlid": "6-4",
+            "valuetype": "combox",
+            "values": [
+              {
+                "name": "Burning",
+                "value": 1
+              },
+              {
+                "name": "Constant",
+                "value": 2
+              },
+              {
+                "name": "Intermittent ",
+                "value": 3
+              },
+              {
+                "name": "Other Sharp",
+                "value": 4
+              },
+              {
+                "name": "Stabbing",
+                "value": 5
+              }
+            ],
+            "index": 1
+          },
+          {
+            "name": "Patient Family are educated on Pain Management Mesasures",
+            "controlid": "6-5",
+            "valuetype": "checkbox",
+            "index": 1
+          },
+          {
+            "name": "Informed to Consultant",
+            "controlid": "6-6",
+            "valuetype": "checkbox",
+            "index": 1
+          }
+        ]
+      }
+    ]
+  }
+]
